@@ -1,0 +1,16 @@
+{
+    "name": "Grace",
+    "description": "Enables calm, poised, and humble behavior even under stress.",
+    "activation_conditions": [
+        "Social spotlight",
+        "Mild adversity"
+    ],
+    "effects": [
+        "Improves harmony",
+        "Reduces conflict potential"
+    ],
+    "dormant_triggers": [
+        "Competitive environments",
+        "Lack of recognition"
+    ]
+}

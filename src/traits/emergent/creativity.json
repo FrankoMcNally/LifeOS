@@ -1,0 +1,17 @@
+{
+    "name": "Creativity",
+    "description": "The use of imagination or original ideas.",
+    "activation_conditions": [
+        "Freedom",
+        "Inspiration",
+        "Challenge"
+    ],
+    "influence_on_behavior": [
+        "Enhances problem-solving",
+        "Generates novelty"
+    ],
+    "resonance_profile": {
+        "base_frequency": 20.2,
+        "modulation": "chaotic-harmonic"
+    }
+}

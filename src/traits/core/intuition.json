@@ -1,0 +1,16 @@
+{
+    "name": "Intuition",
+    "description": "Processes subconscious data for near-instantaneous conclusions.",
+    "activation_conditions": [
+        "Unknown scenarios",
+        "High cognitive load"
+    ],
+    "effects": [
+        "Accelerates decisions",
+        "Improves threat detection"
+    ],
+    "dormant_triggers": [
+        "Overanalytical environments",
+        "Forced rational logic"
+    ]
+}

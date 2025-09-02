@@ -1,0 +1,24 @@
+{
+    "name": "Anger",
+    "category": "core",
+    "description": "A reactive emotional state often triggered by perceived threat, injustice, or frustration. In the system, it serves both protective and transformative purposes.",
+    "inputs": [
+        "threat_detected",
+        "betrayal",
+        "stress_overload"
+    ],
+    "outputs": [
+        "defensive_action",
+        "boundary_setting",
+        "potential_destruction"
+    ],
+    "modulators": [
+        "courage",
+        "fear"
+    ],
+    "resonance_pattern": [
+        7,
+        11,
+        13
+    ]
+}

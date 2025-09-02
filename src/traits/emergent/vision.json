@@ -1,0 +1,15 @@
+{
+    "name": "vision",
+    "description": "Capacity to imagine or perceive future possibilities.",
+    "triggers": [
+        "inspiration",
+        "reflection",
+        "innovation demands"
+    ],
+    "effects": [
+        "creative problem-solving",
+        "future planning"
+    ],
+    "prime_resonance_score": 0.93,
+    "activation_mode": "visionary"
+}

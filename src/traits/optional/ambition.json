@@ -1,0 +1,17 @@
+{
+    "name": "Ambition",
+    "description": "A strong desire to achieve something.",
+    "activation_conditions": [
+        "Goal setting",
+        "Role models",
+        "Competition"
+    ],
+    "influence_on_behavior": [
+        "Boosts drive",
+        "May trigger stress under failure"
+    ],
+    "resonance_profile": {
+        "base_frequency": 21.4,
+        "modulation": "ascending"
+    }
+}

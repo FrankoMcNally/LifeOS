@@ -1,0 +1,23 @@
+{
+    "name": "Grief",
+    "description": "Emotional response to loss, triggering memory and introspection loops.",
+    "triggers": [
+        "loss",
+        "separation"
+    ],
+    "modulators": [
+        "love",
+        "resilience"
+    ],
+    "related_traits": [
+        "empathy",
+        "remorse"
+    ],
+    "resonance_pattern": [
+        9,
+        6,
+        3,
+        2,
+        1
+    ]
+}

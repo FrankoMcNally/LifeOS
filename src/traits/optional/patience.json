@@ -1,0 +1,17 @@
+{
+    "name": "Patience",
+    "description": "The capacity to accept delay or trouble without anger.",
+    "activation_conditions": [
+        "Waiting",
+        "Frustration",
+        "Repetition"
+    ],
+    "influence_on_behavior": [
+        "Reduces impulsivity",
+        "Improves decision making"
+    ],
+    "resonance_profile": {
+        "base_frequency": 13.1,
+        "modulation": "stable"
+    }
+}

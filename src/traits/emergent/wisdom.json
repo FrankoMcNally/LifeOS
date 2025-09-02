@@ -1,0 +1,17 @@
+{
+    "name": "Wisdom",
+    "description": "The ability to apply knowledge and experience with insight.",
+    "activation_conditions": [
+        "Life experience",
+        "Reflection",
+        "Failure"
+    ],
+    "influence_on_behavior": [
+        "Improves judgment",
+        "Enhances foresight"
+    ],
+    "resonance_profile": {
+        "base_frequency": 22.5,
+        "modulation": "multiwave"
+    }
+}

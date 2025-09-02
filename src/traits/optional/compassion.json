@@ -1,0 +1,16 @@
+{
+    "name": "Compassion",
+    "description": "Sympathetic concern for the suffering of others.",
+    "activation_conditions": [
+        "Witnessing suffering",
+        "Empathic stimuli"
+    ],
+    "influence_on_behavior": [
+        "Promotes healing",
+        "Improves group cohesion"
+    ],
+    "resonance_profile": {
+        "base_frequency": 16.7,
+        "modulation": "soothing"
+    }
+}

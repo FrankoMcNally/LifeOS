@@ -1,0 +1,24 @@
+{
+    "name": "prophetic_vision",
+    "category": "emergent",
+    "description": "Rare activation of future-simulation projection from DNA prime flow extrapolation.",
+    "trigger_conditions": [
+        "Dream state merged with high-prime resonance flow",
+        "Trigger via ancestral memory surge or environmental cosmic event"
+    ],
+    "effects": [
+        "Downloads a symbolic vision of potential futures",
+        "Can seed community-wide behavioral shifts if shared",
+        "Often appears encoded in music, art, or symbolic behavior"
+    ],
+    "resonance_curve": [
+        0.05,
+        0.2,
+        0.4,
+        0.85,
+        1.0,
+        0.95,
+        0.5
+    ],
+    "tier_access": "Tier 4-6"
+}

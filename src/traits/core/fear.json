@@ -1,0 +1,79 @@
+{
+    "trait_name": "Fear",
+    "core_type": "Emotional",
+    "prime_resonance": 43,
+    "output_modes": {
+        "protective": {
+            "triggers": [
+                "immediate threat",
+                "trauma recall",
+                "unknown environment"
+            ],
+            "responses": [
+                "alertness",
+                "avoidance",
+                "preparation"
+            ],
+            "sub_traits": [
+                "self-preservation",
+                "suspicion",
+                "instinct amplification"
+            ]
+        },
+        "destructive": {
+            "triggers": [
+                "prolonged exposure",
+                "irrational beliefs",
+                "emotional instability"
+            ],
+            "responses": [
+                "panic",
+                "paralysis",
+                "aggression"
+            ],
+            "sub_traits": [
+                "distrust",
+                "hostility",
+                "withdrawal"
+            ]
+        },
+        "neutral": {
+            "triggers": [
+                "controlled exposure",
+                "training",
+                "ritual"
+            ],
+            "responses": [
+                "heightened awareness",
+                "cautious behavior"
+            ],
+            "sub_traits": [
+                "situational memory",
+                "environmental scanning"
+            ]
+        }
+    },
+    "dna_switches": {
+        "ON": [
+            "Adrenal_Access",
+            "Instinct_Focus",
+            "Memory_Burn"
+        ],
+        "OFF": [
+            "Curiosity_Expansion",
+            "Courage_Overdrive"
+        ]
+    },
+    "tier_mappings": {
+        "tier_1": "survival",
+        "tier_2": "self-regulation",
+        "tier_3": "wisdom via exposure"
+    },
+    "crosslinks": [
+        "Courage",
+        "Paranoia",
+        "Trust",
+        "Subconscious_Alert"
+    ],
+    "encoded_path": "chr3q21.31_fear_node"
+}

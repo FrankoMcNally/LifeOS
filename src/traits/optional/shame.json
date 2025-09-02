@@ -1,0 +1,22 @@
+{
+  "name": "shame",
+  "category": "optional",
+  "description": "A self-reflective emotional state arising from the perception of having violated personal or social standards.",
+  "activation_conditions": [
+    "violation_of_ethics",
+    "social_disapproval",
+    "empathy_trigger"
+  ],
+  "functions": {
+    "regulation": "suppresses repeated unethical behavior",
+    "alignment": "encourages conformity with moral values",
+    "resonance_effect": "lowers self-confidence unless balanced by forgiveness"
+  },
+  "interactions": {
+    "with_guilt": "amplifies personal remorse",
+    "with_empathy": "leads to apology or reparative action",
+    "with_fear": "can cause social withdrawal"
+  },
+  "prime_resonance_score": 0.41,
+  "mode": "neutral"
+}

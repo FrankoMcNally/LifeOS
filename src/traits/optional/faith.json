@@ -1,0 +1,17 @@
+{
+    "name": "Faith",
+    "description": "Complete trust or confidence in someone or something unseen.",
+    "activation_conditions": [
+        "Uncertainty",
+        "Spiritual practice",
+        "Hope"
+    ],
+    "influence_on_behavior": [
+        "Strengthens resilience",
+        "May reduce fear"
+    ],
+    "resonance_profile": {
+        "base_frequency": 25.0,
+        "modulation": "subconscious"
+    }
+}

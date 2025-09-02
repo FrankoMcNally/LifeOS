@@ -1,0 +1,24 @@
+{
+    "name": "Humor",
+    "description": "Trait that enables beings to find amusement or absurdity, often defusing tension.",
+    "triggers": [
+        "social bonding",
+        "awkwardness",
+        "stress relief"
+    ],
+    "modulators": [
+        "resilience",
+        "curiosity"
+    ],
+    "related_traits": [
+        "empathy",
+        "joy"
+    ],
+    "resonance_pattern": [
+        3,
+        6,
+        6,
+        3,
+        2
+    ]
+}

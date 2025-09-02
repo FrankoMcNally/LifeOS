@@ -1,0 +1,54 @@
+{
+    "trait": "Loyalty",
+    "category": "Core Relational Trait",
+    "modes": {
+        "Protective": {
+            "description": "Defends and maintains bonds even under threat or stress.",
+            "activation_trigger": [
+                "Trust Formed",
+                "Shared Risk",
+                "Repetition of Positive Interaction"
+            ]
+        },
+        "Destructive": {
+            "description": "Becomes possessiveness, blind allegiance, or harmful self-sacrifice.",
+            "activation_trigger": [
+                "Betrayal",
+                "Ideological Pressure",
+                "Trauma Bonding"
+            ]
+        },
+        "Neutral": {
+            "description": "Dormant or observational; loyalty is present but not tested.",
+            "activation_trigger": [
+                "New Social Group",
+                "Observation Phase"
+            ]
+        }
+    },
+    "resonance_math": {
+        "prime_resonance_index": 17,
+        "tri_linear_signature": [
+            5,
+            4,
+            8
+        ],
+        "harmonic_range": "Mid-Low",
+        "emergence_score": 0.85
+    },
+    "activation_zones": {
+        "dna_cluster": "Chr7-Q42-LB1",
+        "linked_traits": [
+            "Sacrifice",
+            "Trust",
+            "Empathy",
+            "Discipline"
+        ],
+        "frequency_range": "147-172Hz"
+    },
+    "simulation_behavior": {
+        "pair_bonding": "Strengthens long-term coupling likelihood by 40%",
+        "ancestor_echo": "Triggers when descendant is in moral conflict or loss",
+        "reanimation_boot": "Defaults to Neutral in Earth Matrix; evolves based on trust interactions"
+    }
+}

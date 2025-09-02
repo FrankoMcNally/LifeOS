@@ -1,0 +1,24 @@
+{
+    "name": "Sacrifice",
+    "category": "core",
+    "description": "The act of giving up something valuable for a greater cause. Often triggered by strong loyalty or love under high-stress conditions.",
+    "inputs": [
+        "loyalty",
+        "love",
+        "existential_threat"
+    ],
+    "outputs": [
+        "altruism",
+        "legacy",
+        "protection_of_others"
+    ],
+    "modulators": [
+        "resilience",
+        "anger"
+    ],
+    "resonance_pattern": [
+        13,
+        17,
+        23
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Willpower",
+    "description": "Drives self-control, delayed gratification, and focused energy.",
+    "activation_conditions": [
+        "Presence of distraction",
+        "High temptation scenario"
+    ],
+    "effects": [
+        "Boosts goal alignment",
+        "Reduces impulse traits"
+    ],
+    "dormant_triggers": [
+        "Exhaustion",
+        "Externalized motivation only"
+    ]
+}

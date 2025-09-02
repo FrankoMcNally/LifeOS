@@ -1,0 +1,16 @@
+{
+    "name": "Honesty",
+    "description": "Encourages truth-telling and transparency.",
+    "activation_conditions": [
+        "High trust score",
+        "Stable social conditions"
+    ],
+    "effects": [
+        "Improves social bonding",
+        "Prevents trait decay from deception"
+    ],
+    "dormant_triggers": [
+        "Fear-based environments",
+        "Manipulation incentives"
+    ]
+}

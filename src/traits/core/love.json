@@ -1,0 +1,24 @@
+{
+    "name": "Love",
+    "category": "core",
+    "description": "A binding emotional force promoting connection, protection, and reproduction. Governs empathy and unity in high-harmony states.",
+    "inputs": [
+        "trust",
+        "shared_experience",
+        "affection"
+    ],
+    "outputs": [
+        "bonding",
+        "caregiving",
+        "selflessness"
+    ],
+    "modulators": [
+        "compassion",
+        "loyalty"
+    ],
+    "resonance_pattern": [
+        3,
+        5,
+        17
+    ]
+}

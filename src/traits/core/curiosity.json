@@ -1,0 +1,65 @@
+{
+    "trait": "Curiosity",
+    "category": "Cognitive",
+    "base_state": "Neutral",
+    "activation_triggers": [
+        "Novel stimulus",
+        "Unresolved question",
+        "Environmental change",
+        "Dream state ping"
+    ],
+    "linked_traits": {
+        "positive": [
+            "Creativity",
+            "Learning",
+            "Exploration"
+        ],
+        "negative": [
+            "Obsession",
+            "Overanalysis"
+        ]
+    },
+    "modes": {
+        "Passive": {
+            "description": "Triggered by mild novelty or observation.",
+            "energy_use": "Low",
+            "outcome": "Increased data intake"
+        },
+        "Active": {
+            "description": "Triggered by direct mystery, risk, or challenge.",
+            "energy_use": "Moderate",
+            "outcome": "Targeted exploration, hypothesis testing"
+        },
+        "Hyper": {
+            "description": "Triggered by existential or metaphysical unknowns.",
+            "energy_use": "High",
+            "outcome": "Cross-domain innovation, paradigm shifts"
+        }
+    },
+    "resonance_signature": {
+        "prime_resonance_band": [
+            7,
+            11,
+            13
+        ],
+        "harmonic_range": [
+            2,
+            3,
+            5
+        ],
+        "recursion_factor": 1.618
+    },
+    "earth_matrix_integration": {
+        "default_activation_age": 3,
+        "adaptive_feedback_loops": [
+            "Dream processor triggers new curiosity branches",
+            "Faith-based catalyst multiplies resonance"
+        ],
+        "suppression_conditions": [
+            "Authoritarian control",
+            "Excessive trauma"
+        ]
+    },
+    "version": "1.0",
+    "notes": "Curiosity acts as a core ignition trait for all layered cognition. Should be considered a universal starter."
+}

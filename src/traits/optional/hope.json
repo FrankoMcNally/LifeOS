@@ -1,0 +1,23 @@
+{
+    "name": "Hope",
+    "description": "Forward-looking belief that positive outcomes are possible, often despite adversity.",
+    "triggers": [
+        "despair",
+        "uncertainty"
+    ],
+    "modulators": [
+        "resilience",
+        "faith"
+    ],
+    "related_traits": [
+        "faith",
+        "vision"
+    ],
+    "resonance_pattern": [
+        2,
+        5,
+        10,
+        5,
+        2
+    ]
+}

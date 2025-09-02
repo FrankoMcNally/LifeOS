@@ -1,0 +1,15 @@
+{
+    "name": "empathy",
+    "description": "Ability to understand and share the feelings of others.",
+    "triggers": [
+        "observation of pain",
+        "deep connection",
+        "communal rituals"
+    ],
+    "effects": [
+        "increased social bonding",
+        "protective behavior"
+    ],
+    "prime_resonance_score": 0.89,
+    "activation_mode": "harmonic"
+}

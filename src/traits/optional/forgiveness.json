@@ -1,0 +1,23 @@
+{
+    "name": "Forgiveness",
+    "description": "Release of resentment or vengeance towards someone who has harmed you.",
+    "triggers": [
+        "betrayal",
+        "conflict resolution"
+    ],
+    "modulators": [
+        "empathy",
+        "trust"
+    ],
+    "related_traits": [
+        "trust",
+        "love"
+    ],
+    "resonance_pattern": [
+        6,
+        7,
+        8,
+        7,
+        6
+    ]
+}

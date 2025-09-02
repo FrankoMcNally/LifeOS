@@ -1,0 +1,22 @@
+{
+    "name": "Instinct",
+    "category": "core",
+    "description": "Preloaded, automatic responses inherited genetically. Manages life-critical behaviors like flinching, fight-or-flight, and attraction.",
+    "inputs": [
+        "genetic_memory",
+        "sensory_trigger"
+    ],
+    "outputs": [
+        "rapid_response",
+        "survival_act"
+    ],
+    "modulators": [
+        "environment",
+        "conditioning"
+    ],
+    "resonance_pattern": [
+        2,
+        3,
+        5
+    ]
+}

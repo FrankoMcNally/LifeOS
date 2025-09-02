@@ -1,0 +1,24 @@
+{
+    "name": "transcendence",
+    "category": "emergent",
+    "description": "A phase shift beyond reactive emotion into creative universal flow.",
+    "trigger_conditions": [
+        "Simultaneous expression of love, fear, courage, and selflessness",
+        "TimeStimuli loop convergence across emotional and instinctive layers"
+    ],
+    "effects": [
+        "Entity exhibits free-will-like adaptation outside programmed bounds",
+        "Trait interactions no longer produce destructive outputs",
+        "Can inspire alignment in surrounding entities"
+    ],
+    "resonance_curve": [
+        0.2,
+        0.5,
+        0.9,
+        1.0,
+        1.0,
+        0.7,
+        0.3
+    ],
+    "tier_access": "Tier 5 only"
+}

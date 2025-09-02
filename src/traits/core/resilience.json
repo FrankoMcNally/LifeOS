@@ -1,0 +1,15 @@
+{
+    "name": "resilience",
+    "description": "Ability to withstand stress and recover from adversity.",
+    "triggers": [
+        "failure",
+        "loss",
+        "emotional strain"
+    ],
+    "effects": [
+        "increased endurance",
+        "enhanced emotional stability"
+    ],
+    "prime_resonance_score": 0.91,
+    "activation_mode": "adaptive"
+}

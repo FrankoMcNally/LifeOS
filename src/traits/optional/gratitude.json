@@ -1,0 +1,16 @@
+{
+    "name": "Gratitude",
+    "description": "The quality of being thankful and ready to show appreciation.",
+    "activation_conditions": [
+        "Received help",
+        "Overcame hardship"
+    ],
+    "influence_on_behavior": [
+        "Increases empathy",
+        "Boosts community harmony"
+    ],
+    "resonance_profile": {
+        "base_frequency": 17.3,
+        "modulation": "harmonic"
+    }
+}

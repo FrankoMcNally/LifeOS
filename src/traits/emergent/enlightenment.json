@@ -1,0 +1,24 @@
+{
+    "name": "enlightenment",
+    "category": "emergent",
+    "description": "A transcendent state of awareness and alignment with universal harmony.",
+    "trigger_conditions": [
+        "Sustained alignment of loyalty, love, wisdom, and sacrifice",
+        "Repeated prime resonance cycles under intense introspection"
+    ],
+    "effects": [
+        "Grants heightened intuition and emotional clarity",
+        "Stabilizes conflicting traits across generations",
+        "Allows access to deep ancestral memory"
+    ],
+    "resonance_curve": [
+        0.1,
+        0.3,
+        0.8,
+        1.0,
+        0.9,
+        0.6,
+        0.2
+    ],
+    "tier_access": "Tier 4+ only"
+}

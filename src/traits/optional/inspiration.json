@@ -1,0 +1,22 @@
+{
+  "name": "inspiration",
+  "category": "optional",
+  "description": "A sudden mental stimulation to do or feel something creative or meaningful.",
+  "activation_conditions": [
+    "exposure_to_beauty",
+    "storytelling",
+    "witnessing_greatness"
+  ],
+  "functions": {
+    "ignition": "boosts creative output and visionary ideas",
+    "emotional_link": "uplifts mood and increases faith",
+    "resonance_effect": "can activate latent traits like hope or courage"
+  },
+  "interactions": {
+    "with_curiosity": "accelerates innovation",
+    "with_faith": "leads to personal transformation",
+    "with_ambition": "drives long-term pursuit"
+  },
+  "prime_resonance_score": 0.79,
+  "mode": "protective"
+}

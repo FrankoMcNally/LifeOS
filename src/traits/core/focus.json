@@ -1,0 +1,16 @@
+{
+    "name": "Focus",
+    "description": "The ability to concentrate attention and energy on a task.",
+    "activation_conditions": [
+        "Minimal distractions",
+        "Clear objectives"
+    ],
+    "influence_on_behavior": [
+        "Increases productivity",
+        "Suppresses noise traits"
+    ],
+    "resonance_profile": {
+        "base_frequency": 18.9,
+        "modulation": "tight"
+    }
+}

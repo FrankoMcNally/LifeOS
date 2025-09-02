@@ -1,0 +1,24 @@
+{
+    "name": "Consciousness",
+    "category": "core",
+    "description": "The overarching awareness that allows a being to perceive, reflect, and act with intentionality. Ties together all traits into a coherent whole.",
+    "inputs": [
+        "sensory_input",
+        "self_awareness",
+        "memory_loop"
+    ],
+    "outputs": [
+        "decision",
+        "attention_shift",
+        "identity"
+    ],
+    "modulators": [
+        "belief",
+        "environment"
+    ],
+    "resonance_pattern": [
+        29,
+        31,
+        37
+    ]
+}

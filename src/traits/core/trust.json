@@ -1,0 +1,24 @@
+{
+    "name": "Trust",
+    "category": "core",
+    "description": "A psychological and emotional state enabling vulnerability and cooperation. Allows resource-sharing and complex alliances.",
+    "inputs": [
+        "predictability",
+        "shared_goal",
+        "transparency"
+    ],
+    "outputs": [
+        "cooperation",
+        "delegation",
+        "risk_taking"
+    ],
+    "modulators": [
+        "loyalty",
+        "fear"
+    ],
+    "resonance_pattern": [
+        2,
+        7,
+        19
+    ]
+}

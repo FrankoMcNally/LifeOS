@@ -1,0 +1,16 @@
+{
+    "name": "Adaptability",
+    "description": "Regulates an entity's capacity to respond effectively to change.",
+    "activation_conditions": [
+        "Environmental shift",
+        "New social structure"
+    ],
+    "effects": [
+        "Enables flexible behavior",
+        "Speeds up learning"
+    ],
+    "dormant_triggers": [
+        "Stable/unchanging context",
+        "Rigid role assignment"
+    ]
+}

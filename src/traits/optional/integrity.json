@@ -1,0 +1,22 @@
+{
+  "name": "integrity",
+  "category": "optional",
+  "description": "The quality of being honest and having strong moral principles, consistently upheld in actions.",
+  "activation_conditions": [
+    "moral_decision_points",
+    "temptation",
+    "external_pressure"
+  ],
+  "functions": {
+    "stability": "anchors behavioral consistency",
+    "trust_network": "improves inter-entity cohesion",
+    "resonance_effect": "amplifies loyalty and suppresses betrayal traits"
+  },
+  "interactions": {
+    "with_loyalty": "creates unbreakable bonds",
+    "with_shame": "prevents repeat of misaligned behavior",
+    "with_resilience": "sustains character under stress"
+  },
+  "prime_resonance_score": 0.84,
+  "mode": "protective"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Ingenuity",
+    "description": "Promotes creative and unconventional problem-solving.",
+    "activation_conditions": [
+        "Facing novel challenges",
+        "Low-resource scenarios"
+    ],
+    "effects": [
+        "Boosts adaptation",
+        "Generates innovative paths",
+        "Activates during crises"
+    ],
+    "dormant_triggers": [
+        "Routine environments",
+        "Overreliance on templates"
+    ]
+}
