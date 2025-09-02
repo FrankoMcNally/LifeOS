@@ -21,6 +21,12 @@ A modular digital consciousness simulation framework designed to emulate adaptiv
 
 ```
 LifeOS/
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── simulation_runner.py
+├── observer_mode.py
+├── gui_dashboard.py
 ├── src/
 │   ├── kernel/
 │   │   ├── symbolic_language_engine.py
@@ -34,9 +40,6 @@ LifeOS/
 │       └── multiverse_observer.py
 ├── tests/
 │   └── test_lifeos_run.py
-├── simulation_runner.py
-├── observer_mode.py
-└── gui_dashboard.py
 ```
 
 ---
