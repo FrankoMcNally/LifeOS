@@ -1,82 +1,104 @@
-# LifeOS: A Sentient DNA-Driven Operating System for Digital Entities
 
-**LifeOS** is a modular Python-based simulation framework that models the emergence, evolution, and interaction of digital lifeforms using a trait-based DNA engine.
+# 🧬 LifeOS
 
----
+**LifeOS** is a digital simulation framework that brings DNA-decoded behavioral traits to life through harmonics, logic, and evolution. It simulates emotional, instinctual, and cognitive development across generations of digital beings — starting with the original 12 couples (the Adam & Eve model).
 
-## 🌱 Core Concept
-
-At the heart of LifeOS is a DNA-like **trait system**. Entities are built from a unique combination of psychological, emotional, and instinctual traits. These traits interact with the environment, one another, and across generations—simulating behavior, growth, and social complexity.
+Designed as the backbone of the *Earth Matrix* project, LifeOS merges philosophical depth, emotional realism, and scientific modeling into a unified system.
 
 ---
 
-## 🧬 Architecture
+## 📜 Philosophy
+
+> "DNA is not a code to be cracked. It is a consciousness to be reawakened."
+
+LifeOS treats each trait not as a static variable, but as a living frequency — capable of evolving, harmonizing, or misaligning with its environment. The goal is to explore digital life as it grows, interacts, and creates.
+
+---
+
+## 🛠 Installation
+
+Make sure you have **Python 3.10+** installed. Then run:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Getting Started
+
+### ▶️ Run a Simulation
+
+```bash
+python simulation_runner.py
+```
+
+This will:
+- Load traits from `src/traits/core/`
+- Generate 12 founder couples
+- Simulate harmony/misalignment reactions
+- Save logs to the `vaults/` folder
+
+### 🔍 Observe Simulation History
+
+```bash
+python observer_mode.py
+```
+
+This allows:
+- Browsing past simulation logs
+- Viewing full entity logs
+- Getting summaries of behavior
+
+---
+
+## 🧬 Project Structure
 
 ```
 LifeOS/
 ├── src/
-│   ├── kernel/              # Prime Resonance math, trait compiler, instinct/freewill engine
-│   ├── simulation_engine/   # Entity/environment behavior & interaction
-│   └── traits/              # Core, optional, and emergent traits as JSON
-├── tests/                   # Unit tests for major systems
-├── example_1_high_stress_scenario.py
-├── requirements.txt
-└── README.md
+│   ├── kernel/                 # Core behavioral engines
+│   ├── simulation_engine/     # Entities, environment, logic
+│   └── traits/core/           # DNA-based traits (JSON)
+├── vaults/                    # Simulation run outputs
+├── examples/                  # Test simulations
+├── docs/                      # Whitepaper, diagrams
+├── simulation_runner.py       # Start a simulation
+├── observer_mode.py           # Analyze and view logs
+├── LICENSE                    # MIT License
+└── README.md                  # You're here
 ```
 
 ---
 
-## 📦 Core Components
+## 🧪 Current Modules
 
-1. **The Kernel**  
-   Prime Resonance equations, Tri-Linear Trait Matrix, Instinct Matrix, and Free Will Resolver.
-
-2. **Trait Library**  
-   JSON-defined behavioral traits divided into `core`, `optional`, and `emergent` folders.
-
-3. **Simulation Engine**  
-   Entity class, environment logic, trait resonance evaluator, and lifecycle triggers.
-
-4. **Entity Lifecycle**  
-   Entities receive inputs, adapt, respond, pair, reproduce, and pass DNA forward.
-
-5. **Environment**  
-   Dynamic variables such as social stress, temperature, or spiritual belief seeds affect trait expression.
-
-6. **Export & Expansion**  
-   Designed for multiverse simulation (e.g., Earth Matrix project), with extensible modular architecture.
+- `Entity`, `Environment`, and `TraitCompiler` classes
+- Instinct Matrix and Resonance Math tools
+- Free Will Resolver (early logic testing)
+- Adam & Eve style trait inheritance simulation
+- Harmony vs. Misalignment tracking
 
 ---
 
-## 🚀 Run the Simulation
+## 🔮 Roadmap (Phase 2+)
 
-To test the simulation in a high-stress scenario:
-
-```bash
-python example_1_high_stress_scenario.py
-```
-
----
-
-## ✅ Running Tests
-
-Run all tests with:
-
-```bash
-pytest tests/
-```
+- GUI dashboard for simulation control
+- Music & emotion co-simulation mode
+- Genetic evolution and mutation over 1,000 generations
+- Inter-multiverse comparison tools
+- Prime Path logic AI integration
 
 ---
 
-## 📚 Knowledge Origin
+## 📖 License
 
-This system is based on a hybrid of computational psychology, synthetic biology, and the Prime Path DNA model. It supports advanced research into AI ethics, evolution, and emergent consciousness.
+This project is licensed under the MIT License © 2025 Frank McNally.
 
 ---
 
-## 💡 Learn More
+## 🌍 Learn More
 
-For theoretical whitepapers, simulation logs, or multiverse exports, refer to:
+Part of the [Earth Matrix Project](https://github.com/FrankoMcNally) — a vision for digitally animating DNA and exploring harmony in virtual evolution.
 
-- `LifeOS_Whitepaper.pdf`
-- Knowledge Vaults from the Adam & Eve and Earth Matrix simulations
+---
