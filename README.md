@@ -1,104 +1,70 @@
+# LifeOS
 
-# 🧬 LifeOS
-
-**LifeOS** is a digital simulation framework that brings DNA-decoded behavioral traits to life through harmonics, logic, and evolution. It simulates emotional, instinctual, and cognitive development across generations of digital beings — starting with the original 12 couples (the Adam & Eve model).
-
-Designed as the backbone of the *Earth Matrix* project, LifeOS merges philosophical depth, emotional realism, and scientific modeling into a unified system.
+A modular digital consciousness simulation framework designed to emulate adaptive, evolving entities based on encoded traits, symbolic reasoning, and environmental dynamics.
 
 ---
 
-## 📜 Philosophy
+## 🌟 Features
 
-> "DNA is not a code to be cracked. It is a consciousness to be reawakened."
-
-LifeOS treats each trait not as a static variable, but as a living frequency — capable of evolving, harmonizing, or misaligning with its environment. The goal is to explore digital life as it grows, interacts, and creates.
+- 🧬 Trait-based entity generation (Adam & Eve base)
+- 🌀 Reproduction engine with trait mutation and inheritance
+- 🌱 Environment simulator with tiered conditions
+- 🧠 Symbolic Language Engine for internal thought representation
+- 🔥 Fault & Pain Detector to simulate system distress
+- 🎨 Creative Vault system logging emergent ideas
+- 🧪 Single-generation test runner
+- 📦 Modular architecture, ready for hardware, agents, or embodied AI
 
 ---
 
-## 🛠 Installation
+## 📁 Folder Structure
 
-Make sure you have **Python 3.10+** installed. Then run:
-
-```bash
-pip install -r requirements.txt
+```
+LifeOS/
+├── src/
+│   ├── kernel/
+│   │   ├── symbolic_language_engine.py
+│   │   └── fault_pain_detector.py
+│   ├── simulation_engine/
+│   │   ├── creativity_engine.py
+│   │   └── evolution_engine.py
+│   └── tools/
+│       ├── creative_vault_viewer.py
+│       ├── multiverse_manager.py
+│       └── multiverse_observer.py
+├── tests/
+│   └── test_lifeos_run.py
+├── simulation_runner.py
+├── observer_mode.py
+└── gui_dashboard.py
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-### ▶️ Run a Simulation
+### Run a test simulation:
+
+```bash
+python tests/test_lifeos_run.py
+```
+
+### Run the main simulation:
 
 ```bash
 python simulation_runner.py
 ```
 
-This will:
-- Load traits from `src/traits/core/`
-- Generate 12 founder couples
-- Simulate harmony/misalignment reactions
-- Save logs to the `vaults/` folder
+---
 
-### 🔍 Observe Simulation History
+## 🧪 Test Outputs
 
-```bash
-python observer_mode.py
-```
-
-This allows:
-- Browsing past simulation logs
-- Viewing full entity logs
-- Getting summaries of behavior
+- `symbolic_outputs.json`: Symbolic self-expressions
+- `pain_events.json`: Harmony and stress signals
+- `creative_events.json`: Inventions and emergent behavior
 
 ---
 
-## 🧬 Project Structure
+## 📄 License
 
-```
-LifeOS/
-├── src/
-│   ├── kernel/                 # Core behavioral engines
-│   ├── simulation_engine/     # Entities, environment, logic
-│   └── traits/core/           # DNA-based traits (JSON)
-├── vaults/                    # Simulation run outputs
-├── examples/                  # Test simulations
-├── docs/                      # Whitepaper, diagrams
-├── simulation_runner.py       # Start a simulation
-├── observer_mode.py           # Analyze and view logs
-├── LICENSE                    # MIT License
-└── README.md                  # You're here
-```
-
----
-
-## 🧪 Current Modules
-
-- `Entity`, `Environment`, and `TraitCompiler` classes
-- Instinct Matrix and Resonance Math tools
-- Free Will Resolver (early logic testing)
-- Adam & Eve style trait inheritance simulation
-- Harmony vs. Misalignment tracking
-
----
-
-## 🔮 Roadmap (Phase 2+)
-
-- GUI dashboard for simulation control
-- Music & emotion co-simulation mode
-- Genetic evolution and mutation over 1,000 generations
-- Inter-multiverse comparison tools
-- Prime Path logic AI integration
-
----
-
-## 📖 License
-
-This project is licensed under the MIT License © 2025 Frank McNally.
-
----
-
-## 🌍 Learn More
-
-Part of the [Earth Matrix Project](https://github.com/FrankoMcNally) — a vision for digitally animating DNA and exploring harmony in virtual evolution.
-
----
+MIT — See [LICENSE](LICENSE) for details.
