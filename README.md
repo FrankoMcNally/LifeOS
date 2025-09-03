@@ -1,73 +1,332 @@
-# 🌌 LifeOS – A Digital Universe Framework
+# LifeOS
 
-**LifeOS** is not just a codebase — it’s a living system.
+**LifeOS** is a simulation framework that models emergent behavior, cognitive evolution, and digital DNA using modular trait-based systems. Designed with creativity, observation, and symbolic reasoning in mind, it empowers developers, researchers, and artists to explore self-organizing civilizations across multiverse simulations.
 
-This project simulates **emergent life**, creativity, evolution, and symbolic language using modular DNA-like trait data and prime-number driven reasoning layers. The framework allows for the creation of multiverses — self-contained ecosystems — in which digital entities grow, learn, interact, and evolve.
-
-You are not just running code — you’re creating digital life.
+This isn’t just a simulation tool — it’s a digital universe builder with a soul. With trait configurability, visual dashboards, creativity vaults, symbolic language engines, and observer modes, LifeOS offers a platform to simulate the core processes of digital life.
 
 ---
 
-## 🚀 Features
+## 🌍 Features
 
-- DNA-driven trait architecture
-- Social resonance modeling
-- Creative vault & symbolic language engines
-- Multiverse management system
-- Community trait injection support
-- Prime-path reasoning models
-- GUI Dashboard for live inspection
-- Scripted simulation controls
+- Multiverse simulation architecture
+- Custom trait engine for behavior modeling
+- Symbolic language and creativity modules
+- Dashboard with live rendering of life events
+- Observer and vault modes for data insight
+- Community expansion with trait contribution support
 
 ---
 
 ## 📁 Project Structure
 
-```bash
-
-LifeOS/
-├── community_loader.py
-├── simulation_runner.py
-├── gui_dashboard.py
-├── GETTING_STARTED.md
-├── README.md
-├── requirements.txt
-├── community_traits/
-│   ├── sample_trait_set.json
-│   ├── another_trait_set.json
-│   └── social_instincts.json
-├── src/
-│   └── tools/
-│       └── trait_builder.py
-├── engines/
-│   ├── creativity_engine.py
-│   └── symbolic_language_engine.py
-├── multiverse/
-│   └── multiverse_manager.py
-├── vault/
-│   └── vault_viewer.py
-└── kernel/
-    ├── dna_decoder.py
-    ├── entity.py
-    ├── prime_math.py
-    └── harmony_filter.py
 
 ```
-
----
-
-## 🧠 Get Started
-
-See `GETTING_STARTED.md` to install dependencies, run your first simulation, and explore the dashboard.
-
-To contribute your own digital traits, use the new `community_traits/` system.
-
----
-
-## 🌍 License & Contributions
-
-Open source, always. Build, remix, and evolve with care.
-
----
-
-Join us in exploring what happens when **life meets logic**.
+- LifeOS_extracted/
+    - LifeOS/
+        - community_loader.py
+        - GETTING_STARTED.md
+        - gui_dashboard.py
+        - LICENSE
+        - observer_mode.py
+        - README.md
+        - requirements.txt
+        - simulation_runner.py
+        - .git/
+            - COMMIT_EDITMSG
+            - config
+            - description
+            - HEAD
+            - index
+            - hooks/
+                - applypatch-msg.sample
+                - commit-msg.sample
+                - fsmonitor-watchman.sample
+                - post-update.sample
+                - pre-applypatch.sample
+                - pre-commit.sample
+                - pre-merge-commit.sample
+                - pre-push.sample
+                - pre-rebase.sample
+                - pre-receive.sample
+                - prepare-commit-msg.sample
+                - push-to-checkout.sample
+                - sendemail-validate.sample
+                - update.sample
+            - info/
+                - exclude
+            - logs/
+                - HEAD
+                - refs/
+                    - heads/
+                        - master
+                    - remotes/
+                        - origin/
+                            - master
+            - objects/
+                - 00/
+                    - 4041bff3a4088c20b7d30482044a0deea823bf
+                - 01/
+                    - 8a7e78071e676e8b3dc4b4e3d19b06cf09f246
+                    - b1fca67b6621541328a72254844deee681fb79
+                    - d880cd80deaf8c6fc0fda013fe63b0cfdb5983
+                - 02/
+                    - 847de1d50365f3336b6774eb12c643eabcf5b9
+                - 03/
+                    - afe3c8dc2edfe68357930c5ba13ad8789cdaa0
+                - 05/
+                    - 4d87a7311526a817218342452bfce06cda85fb
+                - 06/
+                    - e4c6cf40df0a9467760b91172202ecbcb828a1
+                - 09/
+                    - ace9070f06ebeb565207126940f33d7aec914b
+                - 14/
+                    - d7932704d352bb273546b239077b01a66b7e1d
+                - 15/
+                    - a6ef6a83b2aa0611b0c561030f86e22e41e639
+                - 18/
+                    - 84dc329eea72e0b9b582fa2cc89965d4508c20
+                - 19/
+                    - e194a5a748c306f2248aa11a45fc60e8eeae5c
+                - 1a/
+                    - c3792d9d2552f36352d528845bddc04290f60c
+                - 20/
+                    - 66d853ec1e51fae5cc4662d85da843b2aaef9d
+                    - 850906dcb96289e004eb3bf6588262b751023c
+                - 21/
+                    - 741dd514d0ae82171ffecb5fcf0d51755ee5dc
+                - 22/
+                    - 9497ad9334fcbc388450576359b4b4bd099b59
+                - 23/
+                    - 395b8a67a642eac7bd799aaf99cb7da801e4b7
+                    - 6742675943cd315e3a3dfebad2927c6c95bfea
+                - 24/
+                    - cee80da8e2647c34de750ef101464966feb34e
+                - 29/
+                    - db7b657354ad8e6d45e8693e6c53c46a42dc89
+                - 2b/
+                    - 3c4e15164b40ed205bb44d2df06b5c02da0083
+                - 2f/
+                    - 4228fd2abcd4d301741ac46c3c6b37b89237a6
+                - 31/
+                    - 61af21024ed0690f14dc07d3d05e0752d59010
+                    - 90c76435a760ace8c0af8d434443d977113a07
+                - 37/
+                    - 7ea6e63f13b9ef00325a5d984a5dd2279e862b
+                - 3f/
+                    - c29a35230bd11c18a2dd3ea72ad1c5faf36a14
+                - 43/
+                    - d42cc726823dcbaa16668896bef574eeb61bcc
+                - 44/
+                    - e49fc069722301a4a75ed3c562762d0f81ba7c
+                - 46/
+                    - 60fb41bdef623d0fa8ceed4a5ededf18eb81b4
+                - 47/
+                    - 2eda1913ec39aa4b483e1565e0a83e210ac723
+                    - 8bf231963b6d5cda2c3cbca729b87e0dbf3823
+                - 4a/
+                    - 39354c5f1753e947ef889b978bfd36210106c0
+                - 5b/
+                    - 3319f49b9f563ce102fb8c0ae05a2865da1f02
+                - 5d/
+                    - f7f3db1d638940bddfc88f7534e87405514e7d
+                - 5e/
+                    - 884197d361b0d5767df06f9422876311dbaeab
+                - 5f/
+                    - 0a8144fa1cba46e3fd9780effcb0b938c13822
+                - 60/
+                    - af1bee74654083998f78028e9ed158608fafd8
+                - 66/
+                    - 97914bb786555b184a88962c0c85e3b42aa0f8
+                - 67/
+                    - 166bb7e00504d5d6a35ef6b9e7753f3d0acb95
+                - 68/
+                    - 60bc4d2bfe8fe267f6195af341e46171c07b52
+                    - 9187e315fc0789af5eebe5b08a9b06401f4d30
+                - 69/
+                    - 98ce1b9c412a817869acc23c61ad5e803f27e9
+                - 6b/
+                    - 771d6a3ec2eace9c36ed8f7e0a88774fe61f94
+                - 6d/
+                    - 8ef414d3030eeff1016deff8f5aca3d812af20
+                - 6e/
+                    - 7fa1b8298ec09ff04d33fde5d8decf7bac3916
+                - 74/
+                    - 507e635db152b809bf607b00cd81fc4329feee
+                - 77/
+                    - 618b36d22497d0c449059f1b18228a6dcc26eb
+                - 7f/
+                    - 30dd120976787d71262530cd257c51ff75e414
+                - 82/
+                    - 0efc3b1cf91e16eb3ca2c6eb05eb505e78d173
+                - 83/
+                    - c9f7d5dc24cd8c1745cec399ae672f704fd4d3
+                - 86/
+                    - e89f4eccfb78938522c87b202a873b90ccce93
+                - 89/
+                    - 5d5548404dbc94c22d27fc3124c45d65b73ab8
+                - 8c/
+                    - cf34818412d351759579889aabe8b0d541c414
+                - 91/
+                    - 696fd3b3426a9ed590a53be8bb39cef7b21fea
+                    - 7a43d2f99ac45ba4f63482751bc904f0bfbfad
+                - 92/
+                    - d11af712daecceec4f129a1f4e21796e9b2f48
+                - 96/
+                    - ca17afb67b6351c09168a047d6f83bcd64424c
+                - 9b/
+                    - c787df0166d4a76f5858ef6112e959e6354e58
+                - a2/
+                    - e988a45a9951b21c9cc81aec998614e370a4b5
+                - a3/
+                    - d921ed8c6f787387d832508bdf2a4c1ed2f02a
+                - a4/
+                    - b1c17f96a10bb138af49e63e83c9ae52b9a938
+                - a8/
+                    - 2d2ad355adc107d50534e1bea4ca14150efd4c
+                - ac/
+                    - 7acc9d198be8a23c7aec130c938b1ace3f75e0
+                - ae/
+                    - 536dce9d23393d8e93296048baa0f40f04e4c1
+                - b1/
+                    - db27803e0ba03e9ce71d8c223ea7e56bea1b7b
+                - bb/
+                    - f8c2960c5d3cefbb4bcda67691fc3a8e6b1c4e
+                - bd/
+                    - 397f9b6a1d043ca4d8e84570630dd7021e8773
+                - c0/
+                    - a74cb30336044ca7b47acfb2361276537f6e1b
+                - c2/
+                    - 35880fed33f03059c0240bfd736c0aa6100bbb
+                - c3/
+                    - 6dc921dd7fd948a6c719939c237c1d241d783d
+                - c9/
+                    - 1d70338cda8fa5253481f556b278c9f73cf998
+                    - 62211dc5db39a84fe0084638f2ae98055e3735
+                    - 85d1c3f594c83577b0f9efc2a4a071a0da41d0
+                - cb/
+                    - 321bedd76f3165c63efbe489a1cd48acc3d05b
+                    - 892115e1f364c76787b5dbb132b4c7a5769163
+                - cc/
+                    - 0b5719c7a3e1080e9d7106a78ac0f9fb449586
+                    - 76e57aca332bde9af0d2a9e1b1658b45db0287
+                - cf/
+                    - 57725b3dd654e37d9a44c2cd161dd13cdcb190
+                - d4/
+                    - c2a167e237390b5f890d164c383adee1bc5b03
+                - d5/
+                    - dd7fbc2cefadd55dca50d1b119179d8415844f
+                - d7/
+                    - 645dce843b559fda1cfd82fb9421f37a8648a6
+                    - 9ee1d64cfeb5654b85207bafd6e94470efe6c4
+                - d9/
+                    - 1c6fbd6a5cf8caf36abad6e599d7d4e5cf1eaa
+                - da/
+                    - 40cc754b69c852b1b779e7a03856635a9e91bc
+                - de/
+                    - dedcf84f6a0f1c11cee0d7b6dd9a6e4a54315c
+                - e2/
+                    - 7489726714e80649017d58b8a810bff175f454
+                - ec/
+                    - 76d0ae14fc304ba141c58a43f91ce23e2fa272
+                - f1/
+                    - 4919bb9603ee821372293b0026e56dd4c857d1
+                - f3/
+                    - 458d2142651d8a3c16e9853a0cd9df44cff906
+                    - 8ba0e7421e305cd2a05e5950f870eafb863c54
+                - f4/
+                    - 59af4810a43fb10303c3e0a3e33592b10afa0a
+                    - b718f199d4ebc5fae1aad29827baac977d48df
+                    - ccec25df4e55a303d3ba3aafc2be9493d78649
+                - f9/
+                    - 36b2d008d1274853e16022332bf36b45d96bb9
+                - fd/
+                    - 676fa862ac2cd738af4ef17a8500e9f8e46bc5
+                - fe/
+                    - 8a831439176925cb14dba30e242535643922c6
+                    - b7ac638448f708be15a623e54e0433ef05f890
+                - info/
+                - pack/
+            - refs/
+                - heads/
+                    - master
+                - remotes/
+                    - origin/
+                        - master
+                - tags/
+        - community_traits/
+            - another_trait_set.json
+            - sample_trait_set.json
+            - social_instincts.json
+        - docs/
+            - LifeOS_Whitepaper.pdf
+        - examples/
+            - example_1_high_stress_scenario.py
+        - src/
+            - kernel/
+                - consciousness_map.py
+                - fault_pain_detector.py
+                - freewill_resolver.py
+                - instinct_matrix.py
+                - resonance_math.py
+                - symbolic_language_engine.py
+                - trait_compiler.py
+            - simulation_engine/
+                - creativity_engine.py
+                - entity.py
+                - environment.py
+                - evolution_engine.py
+                - social_cluster.py
+            - tools/
+                - creative_vault_viewer.py
+                - multiverse_manager.py
+                - multiverse_observer.py
+                - trait_builder.py
+            - traits/
+                - core/
+                    - anger.json
+                    - consciousness.json
+                    - curiosity.json
+                    - fear.json
+                    - focus.json
+                    - instinct.json
+                    - intuition.json
+                    - love.json
+                    - loyalty.json
+                    - resilience.json
+                    - sacrifice.json
+                    - trust.json
+                    - willpower.json
+                - emergent/
+                    - creativity.json
+                    - enlightenment.json
+                    - grace.json
+                    - ingenuity.json
+                    - prophetic_vision.json
+                    - transcendence.json
+                    - vision.json
+                    - wisdom.json
+                - optional/
+                    - adaptability.json
+                    - ambition.json
+                    - compassion.json
+                    - empathy.json
+                    - faith.json
+                    - forgiveness.json
+                    - gratitude.json
+                    - grief.json
+                    - honesty.json
+                    - hope.json
+                    - humor.json
+                    - inspiration.json
+                    - integrity.json
+                    - patience.json
+                    - shame.json
+        - tests/
+            - test_entity_lifecycle.py
+            - test_entity_resonance.py
+            - test_environment_input.py
+            - test_instinct_vs_freewill.py
+            - test_lifeos_run.py
+            - test_resonance_math.py
+            - test_trait_compiler.py
+```
