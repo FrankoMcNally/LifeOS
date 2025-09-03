@@ -1,0 +1,23 @@
+{
+    "name": "Sample Community Trait Set",
+    "description": "A basic template for community-submitted traits.",
+    "traits": [
+        {
+            "trait_id": "adaptive_thinker",
+            "description": "Shows strong adaptability to changing multiverse conditions.",
+            "influences": {
+                "creativity": 0.6,
+                "problem_solving": 0.8,
+                "stubbornness": -0.3
+            }
+        },
+        {
+            "trait_id": "harmonic_bond",
+            "description": "Forms strong emotional or social connections with others.",
+            "influences": {
+                "collaboration": 0.9,
+                "curiosity": 0.2
+            }
+        }
+    ]
+}

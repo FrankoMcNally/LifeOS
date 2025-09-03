@@ -1,0 +1,21 @@
+{
+  "name": "social_instincts",
+  "description": "Traits related to communal behavior and social bonding",
+  "traits": [
+    {
+      "name": "empathy",
+      "function": "Allows the entity to interpret and respond to others' emotions",
+      "weight": 0.7
+    },
+    {
+      "name": "cooperation",
+      "function": "Encourages collaborative actions and mutual support",
+      "weight": 0.65
+    },
+    {
+      "name": "group_identity",
+      "function": "Fosters a sense of belonging and allegiance to a community",
+      "weight": 0.6
+    }
+  ]
+}

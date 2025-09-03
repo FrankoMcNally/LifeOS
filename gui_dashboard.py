@@ -1,74 +1,53 @@
-
 import tkinter as tk
-from tkinter import messagebox, filedialog, scrolledtext
-import subprocess
-import os
+from tkinter import filedialog, messagebox, ttk
 import json
+import os
 
-VAULT_DIR = "vaults"
+class GUIDashboard:
+    def __init__(self, master):
+        self.master = master
+        master.title("LifeOS Trait Loader")
 
-def run_simulation():
-    try:
-        subprocess.run(["python", "simulation_runner.py"], check=True)
-        messagebox.showinfo("Simulation", "Simulation completed successfully.")
-        refresh_logs()
-    except Exception as e:
-        messagebox.showerror("Error", f"Simulation failed: {e}")
+        self.label = tk.Label(master, text="Select a Trait File to Load:")
+        self.label.pack(pady=10)
 
-def run_observer():
-    try:
-        subprocess.run(["python", "observer_mode.py"], check=True)
-    except Exception as e:
-        messagebox.showerror("Error", f"Observer failed: {e}")
+        self.trait_file_path = tk.StringVar()
+        self.dropdown = ttk.Combobox(master, textvariable=self.trait_file_path)
+        self.dropdown.pack(pady=5)
 
-def get_latest_log():
-    if not os.path.exists(VAULT_DIR):
-        return None
-    folders = sorted(os.listdir(VAULT_DIR), reverse=True)
-    for folder in folders:
-        log_path = os.path.join(VAULT_DIR, folder, "harmony_log.json")
-        if os.path.exists(log_path):
-            return log_path
-    return None
+        self.load_button = tk.Button(master, text="Load Traits", command=self.load_traits)
+        self.load_button.pack(pady=10)
 
-def refresh_logs():
-    log_path = get_latest_log()
-    if not log_path:
-        log_display.delete(1.0, tk.END)
-        log_display.insert(tk.END, "No logs found.")
-        return
+        self.text_output = tk.Text(master, height=15, width=60)
+        self.text_output.pack(pady=5)
 
-    with open(log_path, "r") as f:
-        logs = json.load(f)
-        display_text = ""
-        for entry in logs[-10:]:  # Show last 10 events
-            display_text += f"{entry['entity']} (Gen {entry['generation']}): {entry['response']}
-"
+        self.refresh_trait_file_list()
 
-    log_display.delete(1.0, tk.END)
-    log_display.insert(tk.END, display_text)
+    def refresh_trait_file_list(self):
+        trait_files = []
+        for folder in ['traits', 'community_traits']:
+            if os.path.isdir(folder):
+                for file in os.listdir(folder):
+                    if file.endswith(".json"):
+                        trait_files.append(os.path.join(folder, file))
+        self.dropdown['values'] = trait_files
+        if trait_files:
+            self.dropdown.current(0)
 
-# Setup GUI
-root = tk.Tk()
-root.title("LifeOS Dashboard")
-root.geometry("600x400")
+    def load_traits(self):
+        path = self.trait_file_path.get()
+        if os.path.exists(path):
+            try:
+                with open(path, 'r') as f:
+                    data = json.load(f)
+                self.text_output.delete(1.0, tk.END)
+                self.text_output.insert(tk.END, json.dumps(data, indent=2))
+            except Exception as e:
+                messagebox.showerror("Error", f"Failed to load trait file:\n{str(e)}")
+        else:
+            messagebox.showwarning("Missing File", "Selected trait file does not exist.")
 
-frame = tk.Frame(root)
-frame.pack(pady=20)
-
-tk.Label(frame, text="🧬 LifeOS Simulation Dashboard", font=("Helvetica", 16)).pack(pady=10)
-
-btn_simulate = tk.Button(frame, text="▶️ Run Simulation", width=25, command=run_simulation)
-btn_simulate.pack(pady=5)
-
-btn_observe = tk.Button(frame, text="🔍 Launch Observer Mode", width=25, command=run_observer)
-btn_observe.pack(pady=5)
-
-tk.Label(frame, text="Recent Events:").pack(pady=10)
-
-log_display = scrolledtext.ScrolledText(frame, width=70, height=10, font=("Courier", 10))
-log_display.pack()
-
-refresh_logs()
-
-root.mainloop()
+if __name__ == "__main__":
+    root = tk.Tk()
+    gui = GUIDashboard(root)
+    root.mainloop()

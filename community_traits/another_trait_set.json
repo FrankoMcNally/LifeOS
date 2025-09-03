@@ -1,0 +1,30 @@
+{
+  "name": "another_trait_set",
+  "description": "A creative set of traits contributed by the community for digital life simulation.",
+  "traits": [
+    {
+      "trait_id": "community_empathy",
+      "description": "Ability to intuitively synchronize emotional states with surrounding entities.",
+      "impact": {
+        "social_resonance": 0.7,
+        "decision_agility": 0.2
+      }
+    },
+    {
+      "trait_id": "problem_solving_flair",
+      "description": "Natural inclination to find elegant or unexpected solutions to complex problems.",
+      "impact": {
+        "creativity": 0.8,
+        "stability": 0.1
+      }
+    },
+    {
+      "trait_id": "nonlinear_memory",
+      "description": "Accesses memory in nonlinear bursts, enabling unique insight patterns.",
+      "impact": {
+        "intelligence": 0.5,
+        "curiosity": 0.5
+      }
+    }
+  ]
+}

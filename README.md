@@ -1,113 +1,104 @@
 
-# 🌱 LifeOS — A Modular Operating System for Digital Life
+# LifeOS
 
-**LifeOS** is a modular Python-based framework for simulating digital beings with emergent behaviors, symbolic thought, emotional traits, and evolution over time. This is not just code — it’s a philosophical and technical experiment in encoding life itself.
-
----
-
-## 🔧 Core Components
-
-### 🧠 The Kernel (`/kernel`)
-The heart of LifeOS. This is where core logic lives — encoding how digital life thinks, feels, evolves, and responds.
-
-- `instinct_matrix.py` — Governs hardcoded survival behaviors and primal reactions.
-- `resonance_math.py` — Prime-based trait resonance calculator for digital DNA interactions.
-- `freewill_resolver.py` — Resolves internal conflicts between instinct, logic, emotion, and external stimuli.
-- `trait_compiler.py` — Merges parent DNA and environment into a new trait signature for each entity.
-- `consciousness_map.py` — Tracks current memory, focus, emotional state, and intentional thoughts.
-- `fault_pain_detector.py` — Monitors internal misalignment or trauma (emotional/logic damage signals).
-- `symbolic_language_engine.py` — Translates between numeric traits and symbolic language, unlocking self-reflection and communication.
-
-### 🧬 Trait Library (`/traits`)
-A modular collection of digital DNA, broken into 3 tiers:
-
-- **Core** traits — universal across all beings (e.g., fear, curiosity, love).
-- **Emergent** traits — arise through interaction and evolution (e.g., creativity, wisdom).
-- **Optional** traits — culturally or environmentally shaped (e.g., humor, shame, patience).
-
-Each trait is a `.json` file with its parameters, resonance keys, and possible mutations.
-
-### 🌍 Simulation Engine (`/simulation_engine`)
-Responsible for animating life.
-
-- `entity.py` — Defines a digital being. Reads traits, simulates behavior, growth, bonding, and decay.
-- `environment.py` — Controls world stimuli, events, cycles, and environmental feedback.
-- `social_cluster.py` — Manages groups, communities, and interaction rules between entities.
-
-### 🔄 Entity Lifecycle
-Digital beings are born with DNA from trait files. They evolve by:
-
-- Reacting to the environment and other beings.
-- Forming relationships through trait resonance.
-- Passing on blended traits to offspring.
-- Experiencing aging, memory, symbolic thinking, and death.
-
-### 🌐 Earth Matrix Integration
-Multiple parallel "worlds" can be simulated with unique rule sets:
-
-- Introduce spiritual awareness, mathematics, music, creativity.
-- Simulate evolution over 1000 generations.
-- Track DNA shifts, symbolic language, social innovation, and more.
-
-### 📦 Exports & Deployment
-- Fully modular, open-source Python project.
-- Comes with complete trait structures, example simulations, and documentation.
-- Easy to expand, plug into a GUI, or connect with visualizations or AI agents.
+A modular, evolving digital operating system inspired by biological DNA, emotional regulation, and creative consciousness. This project is designed to simulate the growth and behavior of digital humans using a trait-based architecture.
 
 ---
 
-## 📁 Project File Tree (simplified)
+## 🌱 Core Structure
 
-```
+```plaintext
 LifeOS/
-├── README.md
+│
+├── kernel/
+│   ├── instinct_matrix.py
+│   ├── resonance_math.py
+│   ├── freewill_resolver.py
+│   ├── trait_compiler.py
+│   ├── consciousness_map.py
+│   ├── fault_pain_detector.py
+│   └── symbolic_language_engine.py
+│
+├── traits/
+│   └── base_traits.json
+│
+├── community_traits/
+│   ├── sample_trait_set.json
+│   └── another_trait_set.json (optional, user-generated)
+│
+├── multiverse/
+│   ├── multiverse_manager.py
+│   └── world_configs/
+│       └── default_world.json
+│
+├── creativity/
+│   ├── creativity_engine.py
+│   └── vault_viewer.py
+│
+├── gui_dashboard.py
+│
 ├── requirements.txt
-├── /docs/
-│   └── LifeOS_Whitepaper.pdf
-├── /examples/
-│   └── example_1_high_stress_scenario.py
-├── /src/
-│   ├── /kernel/
-│   │   ├── consciousness_map.py
-│   │   ├── fault_pain_detector.py
-│   │   ├── freewill_resolver.py
-│   │   ├── instinct_matrix.py
-│   │   ├── resonance_math.py
-│   │   ├── symbolic_language_engine.py
-│   │   └── trait_compiler.py
-│   ├── /simulation_engine/
-│   │   ├── entity.py
-│   │   ├── environment.py
-│   │   └── social_cluster.py
-│   └── /traits/
-│       ├── /core/
-│       ├── /emergent/
-│       └── /optional/
-├── /tests/
-│   ├── test_entity_lifecycle.py
-│   ├── test_entity_resonance.py
-│   ├── test_environment_input.py
-│   ├── test_instinct_vs_freewill.py
-│   ├── test_resonance_math.py
-│   └── test_trait_compiler.py
+├── README.md
+└── GETTING_STARTED.md
 ```
 
 ---
 
-## 🧭 What’s Next?
+## 🔧 Setup
 
-- Add symbolic language evolution datasets.
-- Integrate GUI and visualization layer.
-- Deploy multiverse simulations using evolving digital populations.
+See `GETTING_STARTED.md` for installation, examples, and configuration steps.
 
 ---
 
-## 👁️‍🗨️ Final Thought
+## 🧬 Kernel Overview
 
-This isn’t just software. It’s a window into the logic of life, encoded in digital DNA. Built to be expanded, observed, and understood.
+| Module                    | Purpose                                                      |
+|--------------------------|--------------------------------------------------------------|
+| `instinct_matrix.py`     | Core instinctual routines that mimic biological base drives  |
+| `resonance_math.py`      | Mathematical harmonics for decision shaping                  |
+| `freewill_resolver.py`   | Manages voluntary vs involuntary responses                   |
+| `trait_compiler.py`      | Translates trait files into active behaviors                 |
+| `consciousness_map.py`   | Generates the layered thought structure                      |
+| `fault_pain_detector.py` | Alerts conscious systems of internal damage/disruption       |
+| `symbolic_language_engine.py` | Handles metaphor, abstraction, and symbolic translation |
 
-> “Life isn’t random. It resonates.”
+---
 
-—
+## 🎨 Creativity Engine
 
-Created with love, logic, and long nights.
+Tools to simulate and record artistic, inventive, and abstract thought:
+
+- `creativity_engine.py`
+- `vault_viewer.py`
+
+---
+
+## 🌌 Multiverse System
+
+Manages multiple parallel simulation environments:
+
+- `multiverse_manager.py`
+- `/world_configs/default_world.json`
+
+---
+
+## 🧬 Community Traits (`/community_traits`)
+
+An optional community-driven trait folder. Useful for experimentation, crowd-sourced submissions, or testing evolved digital DNA.
+
+- `sample_trait_set.json` — Demonstrates traits like `adaptive_thinker` and `harmonic_bond` for shared environments.
+- `another_trait_set.json` — (Pending) Another template for community-defined traits.
+
+---
+
+## 🖼 GUI Layer
+
+- `gui_dashboard.py` — A Tkinter-based interface to view and interact with trait files visually.
+
+---
+
+## 🤝 Contribution
+
+You can contribute by creating new trait files, new simulated environments, or custom kernels. Submit PRs or ideas via the Issues tab.
+
+---
