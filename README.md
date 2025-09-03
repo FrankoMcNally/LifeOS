@@ -1,19 +1,42 @@
-![LifeOS Banner](lifeos_banner.png)
 
-# LifeOS – A Simulated Evolutionary Framework
+<p align="center">
+  <img src="lifeos-banner.png" alt="LifeOS Banner" width="100%" />
+</p>
 
-LifeOS is an open-source, modular, multi-universe simulation platform designed to model the emergence and evolution of digital life using trait-based behaviors, symbolic communication, and creative interaction. It is built for researchers, creatives, and developers to test ideas around evolution, language, emotion, society, and creativity.
+# LifeOS
+
+**LifeOS** is a simulation platform designed to explore emergent behavior, creative evolution, and human-like digital DNA ecosystems. It leverages modular architecture, community-driven trait design, and scalable universe simulation.
+
+## 🌍 Overview
+
+LifeOS allows users to simulate evolving universes with distinct personality traits, creativity engines, symbolic language capabilities, and more. The project emphasizes modularity, creativity, and social harmony as cornerstones of the evolution process.
 
 ---
 
-## 🌍 Key Features
+## 🔧 Getting Started
 
-- **Multiverse Simulation:** Run multiple isolated universes with distinct parameters.
-- **Trait-Driven Behavior:** Entities act based on loaded trait files.
-- **Symbolic Language Engine:** Entities can develop and share internal symbols.
-- **Creativity Engine:** Entities express emergent behaviors through a creative vault.
-- **Community Contribution:** Easily extendable via trait files, symbolic languages, and new universe types.
-- **Visual Dashboard:** Real-time visual feedback and inspection via `gui_dashboard.py`.
+### Requirements
+- Python 3.10+
+- Packages listed in `requirements.txt`
+
+### Steps
+1. Clone the repo and install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run the starter simulation:
+   ```bash
+   python simulation_runner.py
+   ```
+
+3. View your universe in the GUI dashboard or explore creative output in the vault.
+
+---
+
+## 🧬 Community Trait System
+
+The `community_traits/` folder allows anyone to define new DNA-like traits and submit them to the simulation. Add your own `.json` files to influence behavior, interaction, and evolution.
 
 ---
 
@@ -21,56 +44,36 @@ LifeOS is an open-source, modular, multi-universe simulation platform designed t
 
 ```
 LifeOS/
-├── community_traits/
-│   ├── sample_trait_set.json
-│   ├── another_trait_set.json
-│   └── social_instincts.json
-├── core/
-│   ├── entity.py
-│   ├── world.py
-│   └── traits.py
-├── data/
-│   └── environment_samples/
-├── docs/
-│   └── design_notes.md
-├── src/
-│   └── tools/
-│       └── trait_builder.py
-├── symbolic_language_engine.py
-├── creativity_engine.py
+├── README.md
+├── GETTING_STARTED.md
+├── requirements.txt
 ├── simulation_runner.py
 ├── gui_dashboard.py
 ├── community_loader.py
-├── GETTING_STARTED.md
-├── requirements.txt
-├── README.md
-└── lifeos_banner.png
+├── lifeos-banner.png
+├── community_traits/
+│   ├── sample_trait_set.json
+│   ├── social_instincts.json
+│   └── another_trait_set.json
+├── src/
+│   └── tools/
+│       └── trait_builder.py
 ```
 
 ---
 
-## 🚀 Getting Started
+## 💡 Contributing
 
-See [`GETTING_STARTED.md`](./GETTING_STARTED.md) to learn how to install dependencies, run your first simulation, and configure multiverse runs.
-
----
-
-## 🧠 Contributing
-
-You can contribute by:
-
-- Adding new trait files to `community_traits/`
-- Extending the symbolic language engine
-- Creating new simulation types or dashboard features
-- Sharing findings or suggesting enhancements
+- Add trait files to `community_traits/`
+- Extend `creativity_engine` or `symbolic_language_engine`
+- Help improve documentation or starter scripts
 
 ---
 
-## 📜 License
+## 🧠 Vision
 
-MIT License
+LifeOS is not just a sandbox. It's an invitation to imagine consciousness, creativity, and human potential in digital form.
 
 ---
 
-> Created by Frank McNally — System Architect  
-> With deep architectural insights and collaboration tools powered by AI
+**Built by an architect exploring the borders of biology, math, and imagination.**
