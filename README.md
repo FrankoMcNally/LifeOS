@@ -1,92 +1,137 @@
-# 🧠 LifeOS: A Living Operating System for Digital Minds
+![LifeOS Banner](lifeos-banner.png)
 
-> _What if we could simulate not just intelligence — but **emergent emotion**, **free will**, and **harmony**?_  
-> LifeOS is a framework for evolving life-like systems in digital space — from base instincts to transcendent traits.
+# LifeOS – A Digital Life Simulation Engine
 
----
-
-## 🌍 What is LifeOS?
-
-LifeOS is a modular simulation engine that mimics the development of consciousness, emotion, and decision-making in artificial agents.  
-It allows developers, researchers, and creatives to simulate **multi-layered digital beings** and their **evolution over time**.
-
-The system is built on a foundation of:
-
-- 🧬 Core Traits (like fear, love, trust)
-- 🔁 Instinct & Free Will loops
-- 🧠 Cognitive Maps & Symbolic Reasoning
-- 📈 A Harmony vs Fault engine that regulates balance and triggers adaptation
-
-Think of it as an evolving operating system for digital life — capable of growth, expression, and interaction.
+**LifeOS** is a modular framework that simulates evolving life systems through traits, instincts, emotional resonance, and decision-making.  
+It’s not just a simulation — it’s a conversation starter for biology, AI, creativity, and the future of digital beings.
 
 ---
 
-## 🔭 Potential Applications
+## 🧠 What Is LifeOS?
 
-LifeOS isn’t just theory — it’s designed for **real-world simulation**, creative exploration, and next-gen decision systems. Possible applications include:
-
-- 🎮 **Game AI & World Simulation** — evolving NPC behavior, emergent storytelling, digital societies
-- 🧠 **Neural Interface Training** — emotional modeling and trait-layered feedback for brain-computer interaction
-- 🏥 **Wellbeing Technology** — testing emotional recalibration tools, wearable prototypes (Resona Ring, etc.)
-- 🤖 **Companion & Caregiving AI** — simulated decision-making rooted in empathy, loyalty, instinct
-- 🚗 **Autonomous Systems** — adaptive logic for high-stress decision environments (transport, security, etc.)
-- 🧪 **Digital Psychology Research** — sandbox for studying cognition, free will, fear loops, etc.
+LifeOS mimics the fundamental layers of a conscious being using code modules that replicate instinct, free will, learning, and interaction.  
+Entities in LifeOS evolve and respond to environments based on a deep network of traits.
 
 ---
 
-## 🧪 Example: Stress Test Simulation
+## 🔩 Core Modules
+
+- **TraitCompiler**: Loads and manages core/emergent/optional traits from JSON files.
+- **InstinctMatrix**: Handles hardcoded drives (like fear, survival, curiosity).
+- **ConsciousnessMap**: Simulates moment-to-moment awareness and adaptation.
+- **FreeWillResolver**: Introduces unpredictability and novel choices.
+- **ResonanceMath**: Governs harmonic balance between entity decisions and their environment.
+- **FaultPainDetector**: Detects misalignment and "suffering" in entities.
+- **SymbolicLanguageEngine**: Gives rise to symbolic communication and abstract thinking.
+
+---
+
+## 🧬 File Tree Overview
 
 ```bash
-python examples/example_1_high_stress_scenario.py
-```
-
-Or launch a continuous simulation:
-
-```bash
-python run.py
+LifeOS/
+├── lifeos-banner.png
+├── README.md
+├── GETTING_STARTED.md
+├── LICENSE
+├── requirements.txt
+├── run.py
+├── simulation_runner.py
+├── observer_mode.py
+├── community_loader.py
+├── gui_dashboard.py
+├── community_traits/
+│   ├── sample_trait_set.json
+│   ├── another_trait_set.json
+│   └── social_instincts.json
+├── docs/
+│   └── LifeOS_Whitepaper.pdf
+├── examples/
+│   └── example_1_high_stress_scenario.py
+├── src/
+│   ├── __init__.py
+│   ├── kernel/
+│   │   ├── consciousness_map.py
+│   │   ├── fault_pain_detector.py
+│   │   ├── freewill_resolver.py
+│   │   ├── instinct_matrix.py
+│   │   ├── resonance_math.py
+│   │   ├── symbolic_language_engine.py
+│   │   └── trait_compiler.py
+│   ├── simulation_engine/
+│   │   ├── __init__.py
+│   │   ├── creativity_engine.py
+│   │   ├── environment.py
+│   │   ├── evolution_engine.py
+│   │   ├── entity.py
+│   │   └── social_cluster.py
+│   ├── tools/
+│   │   ├── creative_vault_viewer.py
+│   │   ├── multiverse_observer.py
+│   │   ├── multiverse_manager.py
+│   │   └── trait_builder.py
+│   └── traits/
+│       ├── core/
+│       │   ├── anger.json ... [12 total]
+│       ├── emergent/
+│       │   ├── creativity.json ... [8 total]
+│       └── optional/
+│           ├── adaptability.json ... [18 total]
+├── tests/
+│   ├── test_entity_lifecycle.py
+│   ├── test_entity_resonance.py
+│   ├── test_environment_input.py
+│   ├── test_instinct_vs_freewill.py
+│   ├── test_trait_compiler.py
+│   ├── test_resonance_math.py
+│   └── test_lifeos_run.py
 ```
 
 ---
 
-## 🛠️ Quickstart
+## 💻 Try It Now
 
 ```bash
 git clone https://github.com/FrankoMcNally/LifeOS.git
 cd LifeOS
 pip install -r requirements.txt
+
+# Run main loop
 python run.py
 ```
 
-> Requires Python 3.9+
-
----
-
-## 📁 Project Structure
+Or try the built-in example:
 
 ```bash
-LifeOS/
-├── src/                  # Core engine modules (instincts, logic, traits)
-├── examples/             # Sample simulations
-├── tests/                # Unit tests
-├── community_traits/     # Custom trait profiles
-├── observer_mode.py      # External monitoring and dashboard connector
-├── simulation_runner.py  # Master run logic
-├── run.py                # Clean entry point for looped simulation
-├── README.md             # You're reading it.
+python examples/example_1_high_stress_scenario.py
 ```
 
 ---
 
-## 🧠 Beyond: Earth Matrix & Future Simulations
+## 🌍 Real-World Applications
 
-This repo also powers **Earth Matrix**, a large-scale simulation of digital DNA, evolution, and multiverse-scale behavior. You’ll see references in code to `Adam and Eve`, `resonance modeling`, and `prime path frameworks` — all part of that extended vision.
+LifeOS is a prototype — but its modularity allows for potential use in:
+
+- 🧪 **AI Behavior Design** – Agent simulation in gaming and robotics
+- 🧬 **Synthetic Life Research** – Test hypotheses about cognition and evolution
+- 🎮 **Game Narrative Systems** – Emergent characters that evolve based on experience
+- 🧘 **Therapeutic Simulations** – Exploring emotional regulation and balance
+- 🛰️ **Space-Based AI** – Autonomous systems with adaptive decision-making
+
+---
+
+## 📘 Documentation
+
+See [`docs/LifeOS_Whitepaper.pdf`](docs/LifeOS_Whitepaper.pdf) for full theory and architecture.
 
 ---
 
-## 🙏 Final Thought
+## 👥 Contributing
 
-You’re looking at the start of something alive.
-
-Whether for AI, education, gaming, wellbeing, or just exploration — LifeOS is a foundation you can build on.
+Contributions are welcome! Fork the repo, open issues, or submit pull requests.
 
 ---
+
+## 📄 License
+
+MIT License
