@@ -1,47 +1,47 @@
 
-# example_1_high_stress_scenario.py
+# examples/example_1_high_stress_scenario.py
 
-from LifeOS.src.kernel.trait_compiler import Trait
-from LifeOS.simulation_engine.environment import Environment
-from LifeOS.simulation_engine.entity import Entity
+import time
+from src.simulation_engine.environment import Environment
+from src.simulation_engine.entity import Entity
+from src.kernel.trait_compiler import TraitCompiler
+from src.kernel.instinct_matrix import InstinctMatrix
+from src.kernel.freewill_resolver import FreeWillResolver
+from src.kernel.resonance_math import ResonanceMath
+from src.kernel.symbolic_language_engine import SymbolicLanguageEngine
 
-# 1. Initialize the environment with high-stress factors
-env = Environment(temperature=15.0, social_stress=0.9, noise_level=0.8)
-environment_factors = env.get_factors()
-print(f"Environment Factors: {environment_factors}\n")
+def load_traits(trait_file_path):
+    import json
+    with open(trait_file_path, 'r') as f:
+        return json.load(f)
 
-# 2. Create trait objects manually (from the core trait structure)
-loyalty_trait = Trait(
-    name="Loyalty",
-    base_intensity=0.8,
-    triggers=["betrayal_observed", "ingroup_threat"],
-    modulation_factors={'stress': 1.5}
-)
+def simulate_high_stress_scenario():
+    # Load traits
+    traits = load_traits('community_traits/sample_trait_set.json')
+    
+    # Compile traits for the entity
+    compiler = TraitCompiler(traits)
+    compiled_traits = compiler.compile()
 
-courage_trait = Trait(
-    name="Courage",
-    base_intensity=0.7,
-    triggers=["fear_triggered", "moral_duty"],
-    modulation_factors={'stress': 0.8}
-)
+    # Create test entity under high stress conditions
+    test_entity = Entity(
+        name="HighStressEntity",
+        traits=compiled_traits,
+        instinct_matrix=InstinctMatrix(),
+        free_will_resolver=FreeWillResolver(),
+        resonance_math=ResonanceMath(),
+        symbolic_engine=SymbolicLanguageEngine()
+    )
 
-# 3. Create an entity and assign traits
-subject_alpha = Entity(
-    name="Subject_Alpha",
-    traits={"Loyalty": loyalty_trait, "Courage": courage_trait}
-)
+    # Initialize environment
+    env = Environment()
 
-# 4. Simulate the entity receiving the environment
-subject_alpha.receive_environment_input(environment_factors)
+    # Simulate multiple steps
+    for step in range(10):
+        print(f"--- Simulation Step {step + 1} ---")
+        env.simulate_interaction(test_entity)
+        test_entity.evaluate_state()
+        time.sleep(0.5)  # simulate time passing
 
-# 5. Check for instinct override based on stress
-subject_alpha.check_instinct_trigger()
-print(f"Instinct Mode Activated: {subject_alpha.instinct_mode}\n")
-
-# 6. Compile traits to observe behavior under stress
-print("Compiled Trait Output under High Stress:")
-for trait_name, trait_obj in subject_alpha.traits.items():
-    compiled_data = trait_obj.compile(environment_stress=env.social_stress)
-    print(f"  - {trait_name}:")
-    print(f"        Current Intensity: {compiled_data['current_intensity']}")
-    print(f"        Triggers: {compiled_data['triggers']}")
+if __name__ == "__main__":
+    simulate_high_stress_scenario()

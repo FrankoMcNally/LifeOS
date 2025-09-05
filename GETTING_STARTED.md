@@ -1,96 +1,106 @@
 
-# GETTING STARTED with LifeOS
+# 🧬 LifeOS — Getting Started Guide
 
-Welcome to **LifeOS** — a modular, evolving platform for simulating digital consciousness, social resonance, and creative emergence.
+Welcome to **LifeOS**, a human-inspired life simulation engine rooted in modular traits, DNA-level logic, and community interaction.
+
+This document will guide you through getting started, running simulations, and modifying key modules.
 
 ---
 
-## 📦 Installation
+## ⚡ Quickstart
 
-Make sure you have Python 3.8 or higher installed. Then, install dependencies:
+If you're just here to see it run:
+
+```bash
+git clone https://github.com/FrankoMcNally/LifeOS.git
+cd LifeOS
+pip install -r requirements.txt
+python run.py
+```
+
+---
+
+## 🔧 Installation
+
+To install the dependencies, ensure you're using Python 3.9+ and run:
 
 ```bash
 pip install -r requirements.txt
 ```
 
+Make sure you are in the project root directory when executing any commands.
+
 ---
 
-## ▶️ Running Your First Simulation
+## 🚀 Running Your First Simulation
 
-To get started, run the included example script:
+LifeOS comes with a ready-to-run test script:
 
 ```bash
-python simulation_runner.py
+python run.py
 ```
 
-This runs a small multiverse of digital beings using the default trait file. Output appears in the terminal and the GUI dashboard if enabled.
+This runs a continuous simulation loop (100 iterations by default) using internal modules like:
 
-To try running with a **community trait set**, modify `simulation_runner.py` to point to:
+- ConsciousnessMap
+- TraitCompiler
+- ResonanceMath
+- FreeWillResolver
+- InstinctMatrix
+- FaultPainDetector
+- SymbolicLanguageEngine
 
-```python
-traits_path = "community_traits/another_trait_set.json"
+Example output is printed to the terminal to help visualize the behavior.
+
+---
+
+## 🔬 Customizing Traits & Community Behavior
+
+You can adjust simulation behavior using parameters in:
+
+- `examples/example_1_high_stress_scenario.py`
+- `community_traits/*.json` files
+
+For example, modify `social_instincts.json` to adjust default population traits, behaviors, or personality profiles.
+
+---
+
+## 🧪 Testing
+
+Run the test suite with:
+
+```bash
+pytest tests/
 ```
 
 ---
 
-## 🧠 Viewing Output
+## 📁 Folder Overview
 
-Once the simulation completes, you can:
-
-- View data summaries in the GUI dashboard
-- Inspect creative outputs in the `creative_vault/`
-- Trace individual decisions using the `consciousness_map.py`
-
----
-
-## ⚙️ Configuring Multiverse Settings
-
-Use the `config/` folder to set multiverse parameters such as:
-- Population size
-- Environmental variation
-- Evolutionary depth
-
-You can run **multiple universes** in parallel using the `multiverse_manager.py`.
+| Folder                  | Description |
+|-------------------------|-------------|
+| `src/`                 | Core logic and simulation modules |
+| `examples/`            | Example simulation scripts |
+| `community_traits/`    | Sample trait configurations |
+| `tests/`               | Unit tests |
+| `docs/`                | Whitepaper and extended documentation |
+| `lifeos-banner.png`    | Repo banner (used in README) |
+| `run.py`               | Main continuous simulation entry point |
 
 ---
 
-## 🧬 Creating Your Own Trait File
+## 🛠 Next Steps
 
-To create custom beings:
-1. Copy `core_traits/sample_trait_set.json`
-2. Rename it (e.g. `my_traits.json`)
-3. Modify traits, behaviors, values, or emotional resonance
-4. Point the simulation to this new file
-
-You can also contribute to the growing open trait bank by placing your file in:
-
-```
-community_traits/
-```
-
-New trait templates like `community_traits/another_trait_set.json` are ready for reuse or expansion.
+- Explore the `src/kernel/` modules to understand the core brain logic.
+- Experiment with modifying traits in `src/traits/` and watching how behavior changes.
+- Try swapping out example JSON files to simulate different communities or stress scenarios.
 
 ---
 
-## 🌐 Contributing
+## 👁‍🗨 Note
 
-You can contribute in multiple ways:
-- Add new trait files to `community_traits/`
-- Expand modules like `creativity_engine.py` or `symbolic_language_engine.py`
-- Improve tools like the dashboard or fault_pain_detector
-
-Recent additions like the `symbolic_language_engine.py` and enhanced community traits enable rich modular experimentation. Explore these to craft your own cognitive tools.
+Some advanced modules (like `EvolutionEngine`, `CreativityEngine`) are currently stubbed. They serve as placeholders for future development and won’t affect initial simulations.
 
 ---
 
-## 🚀 Tips for Power Users
-
-- For simulating very large populations (>100 digital beings), consider optimizing the `social_resonance_calculation()` method
-- Use `multiverse_manager.py` to horizontally scale your experiments
-- Visualize results with `gui_dashboard.py`
-
----
-
-## ❤️ Thank You
-
-By exploring LifeOS, you’re not just running code — you’re co-creating a universe of discovery, creativity, and evolution. Welcome to the experiment.
+Enjoy simulating with **LifeOS** — and thank you for contributing to a better understanding of conscious systems.
