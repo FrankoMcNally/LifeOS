@@ -1,6 +1,3 @@
-
-# freewill_resolver.py
-
 def is_free_will_decision(trait_intensity, instinct_level, threshold=0.2):
     """
     Determine if action is driven by free will or instinct.
@@ -8,3 +5,5 @@ def is_free_will_decision(trait_intensity, instinct_level, threshold=0.2):
     """
     delta = abs(trait_intensity - instinct_level)
     return delta > threshold
+
+__all__ = ['is_free_will_decision']

@@ -1,106 +1,72 @@
+# Getting Started with LifeOS (Beginner Friendly)
 
-# 🧬 LifeOS — Getting Started Guide
-
-Welcome to **LifeOS**, a human-inspired life simulation engine rooted in modular traits, DNA-level logic, and community interaction.
-
-This document will guide you through getting started, running simulations, and modifying key modules.
+Welcome to LifeOS! This guide assumes **no prior coding experience**.
 
 ---
 
-## ⚡ Quickstart
+## ✅ Step 1: Install Python
 
-If you're just here to see it run:
+1. Go to [https://www.python.org/downloads](https://www.python.org/downloads)
+2. Download **Python 3.10 or newer**
+3. During install, **check the box that says "Add Python to PATH"**
+4. Finish the install
 
-```bash
-git clone https://github.com/FrankoMcNally/LifeOS.git
-cd LifeOS
-pip install -r requirements.txt
-python run.py
+---
+
+## ✅ Step 2: Launch LifeOS
+
+1. Unzip the LifeOS.zip file to a folder like `C:\LifeOS\`
+2. Double-click the file: `run_lifeos_simulation.bat`
+
+---
+
+## ✅ What to Expect
+
+- A console window or GUI will launch
+- Simulation will run with digital agents
+- Data will be logged in `logs/simulation_log.txt`
+
+---
+
+## 🛠 If Things Go Wrong
+
+### ⚠️ Python not found
+Open `Command Prompt` and type:
+```
+python --version
+```
+If it fails, reinstall Python and **make sure to tick "Add to PATH"**
+
+---
+
+### ⚠️ Simulation doesn't launch
+1. Right-click the batch file → “Run as Administrator”
+2. Or open terminal manually:
+```
+cd C:\LifeOS\
+python core/simulation_runner.py
 ```
 
 ---
 
-## 🔧 Installation
+## 📌 What Each File Does
 
-To install the dependencies, ensure you're using Python 3.9+ and run:
+- `simulation_runner.py`: main control center
+- `observer_mode.py`: tracks digital behavior
+- `free_will.py`: adds random actions
+- `harmony_engine.py`: maintains balance
+- `community_traits.json`: starter DNA data
+- `run_lifeos_simulation.bat`: one-click launcher (Windows only)
 
-```bash
-pip install -r requirements.txt
+---
+
+## 🔁 Restarting or Resetting
+
+You can run the simulation multiple times with different traits by editing:
 ```
-
-Make sure you are in the project root directory when executing any commands.
-
----
-
-## 🚀 Running Your First Simulation
-
-LifeOS comes with a ready-to-run test script:
-
-```bash
-python run.py
-```
-
-This runs a continuous simulation loop (100 iterations by default) using internal modules like:
-
-- ConsciousnessMap
-- TraitCompiler
-- ResonanceMath
-- FreeWillResolver
-- InstinctMatrix
-- FaultPainDetector
-- SymbolicLanguageEngine
-
-Example output is printed to the terminal to help visualize the behavior.
-
----
-
-## 🔬 Customizing Traits & Community Behavior
-
-You can adjust simulation behavior using parameters in:
-
-- `examples/example_1_high_stress_scenario.py`
-- `community_traits/*.json` files
-
-For example, modify `social_instincts.json` to adjust default population traits, behaviors, or personality profiles.
-
----
-
-## 🧪 Testing
-
-Run the test suite with:
-
-```bash
-pytest tests/
+traits/community_traits.json
 ```
 
 ---
 
-## 📁 Folder Overview
-
-| Folder                  | Description |
-|-------------------------|-------------|
-| `src/`                 | Core logic and simulation modules |
-| `examples/`            | Example simulation scripts |
-| `community_traits/`    | Sample trait configurations |
-| `tests/`               | Unit tests |
-| `docs/`                | Whitepaper and extended documentation |
-| `lifeos-banner.png`    | Repo banner (used in README) |
-| `run.py`               | Main continuous simulation entry point |
-
----
-
-## 🛠 Next Steps
-
-- Explore the `src/kernel/` modules to understand the core brain logic.
-- Experiment with modifying traits in `src/traits/` and watching how behavior changes.
-- Try swapping out example JSON files to simulate different communities or stress scenarios.
-
----
-
-## 👁‍🗨 Note
-
-Some advanced modules (like `EvolutionEngine`, `CreativityEngine`) are currently stubbed. They serve as placeholders for future development and won’t affect initial simulations.
-
----
-
-Enjoy simulating with **LifeOS** — and thank you for contributing to a better understanding of conscious systems.
+Enjoy exploring LifeOS!

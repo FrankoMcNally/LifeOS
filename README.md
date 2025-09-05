@@ -1,137 +1,75 @@
-![LifeOS Banner](lifeos-banner.png)
+# LifeOS: Digital Life Simulation Framework
 
-# LifeOS – A Digital Life Simulation Engine
+LifeOS is a modular framework designed to simulate evolving digital life systems with human-like traits. It integrates symbolic reasoning, DNA-based trait mapping, multiverse simulations, and AI-driven community behavior.
 
-**LifeOS** is a modular framework that simulates evolving life systems through traits, instincts, emotional resonance, and decision-making.  
-It’s not just a simulation — it’s a conversation starter for biology, AI, creativity, and the future of digital beings.
-
----
-
-## 🧠 What Is LifeOS?
-
-LifeOS mimics the fundamental layers of a conscious being using code modules that replicate instinct, free will, learning, and interaction.  
-Entities in LifeOS evolve and respond to environments based on a deep network of traits.
+## 🌱 Key Features
+- Digital DNA trait inheritance
+- Observer module for behavior tracking
+- GUI or CLI dashboard
+- Free Will, Harmony, Conflict modules
+- Batch-launch simulation system
+- Prime Path encoding compatibility
 
 ---
 
-## 🔩 Core Modules
-
-- **TraitCompiler**: Loads and manages core/emergent/optional traits from JSON files.
-- **InstinctMatrix**: Handles hardcoded drives (like fear, survival, curiosity).
-- **ConsciousnessMap**: Simulates moment-to-moment awareness and adaptation.
-- **FreeWillResolver**: Introduces unpredictability and novel choices.
-- **ResonanceMath**: Governs harmonic balance between entity decisions and their environment.
-- **FaultPainDetector**: Detects misalignment and "suffering" in entities.
-- **SymbolicLanguageEngine**: Gives rise to symbolic communication and abstract thinking.
-
----
-
-## 🧬 File Tree Overview
-
-```bash
+## 📦 Project Structure
+```
 LifeOS/
-├── lifeos-banner.png
+├── core/
+│   ├── simulation_runner.py
+│   ├── observer_mode.py
+│   ├── free_will.py
+│   └── harmony_engine.py
+│
+├── traits/
+│   └── community_traits.json
+│
+├── gui/
+│   └── dashboard_gui.py
+│
+├── logs/
+│   └── simulation_log.txt
+│
+├── run_lifeos_simulation.bat
 ├── README.md
-├── GETTING_STARTED.md
-├── LICENSE
-├── requirements.txt
-├── run.py
-├── simulation_runner.py
-├── observer_mode.py
-├── community_loader.py
-├── gui_dashboard.py
-├── community_traits/
-│   ├── sample_trait_set.json
-│   ├── another_trait_set.json
-│   └── social_instincts.json
-├── docs/
-│   └── LifeOS_Whitepaper.pdf
-├── examples/
-│   └── example_1_high_stress_scenario.py
-├── src/
-│   ├── __init__.py
-│   ├── kernel/
-│   │   ├── consciousness_map.py
-│   │   ├── fault_pain_detector.py
-│   │   ├── freewill_resolver.py
-│   │   ├── instinct_matrix.py
-│   │   ├── resonance_math.py
-│   │   ├── symbolic_language_engine.py
-│   │   └── trait_compiler.py
-│   ├── simulation_engine/
-│   │   ├── __init__.py
-│   │   ├── creativity_engine.py
-│   │   ├── environment.py
-│   │   ├── evolution_engine.py
-│   │   ├── entity.py
-│   │   └── social_cluster.py
-│   ├── tools/
-│   │   ├── creative_vault_viewer.py
-│   │   ├── multiverse_observer.py
-│   │   ├── multiverse_manager.py
-│   │   └── trait_builder.py
-│   └── traits/
-│       ├── core/
-│       │   ├── anger.json ... [12 total]
-│       ├── emergent/
-│       │   ├── creativity.json ... [8 total]
-│       └── optional/
-│           ├── adaptability.json ... [18 total]
-├── tests/
-│   ├── test_entity_lifecycle.py
-│   ├── test_entity_resonance.py
-│   ├── test_environment_input.py
-│   ├── test_instinct_vs_freewill.py
-│   ├── test_trait_compiler.py
-│   ├── test_resonance_math.py
-│   └── test_lifeos_run.py
+└── GETTING_STARTED.md
 ```
 
 ---
 
-## 💻 Try It Now
+## 🚀 Quick Start (Windows)
+1. **Install Python (3.10+)**  
+   Download from: [https://www.python.org/downloads](https://www.python.org/downloads)
 
-```bash
-git clone https://github.com/FrankoMcNally/LifeOS.git
-cd LifeOS
-pip install -r requirements.txt
+2. **Double click `run_lifeos_simulation.bat`**  
+   This will launch the simulation via `simulation_runner.py`
 
-# Run main loop
-python run.py
-```
-
-Or try the built-in example:
-
-```bash
-python examples/example_1_high_stress_scenario.py
-```
+3. **Output:**  
+   - Console updates or GUI dashboard  
+   - Logs stored in `logs/simulation_log.txt`
 
 ---
 
-## 🌍 Real-World Applications
-
-LifeOS is a prototype — but its modularity allows for potential use in:
-
-- 🧪 **AI Behavior Design** – Agent simulation in gaming and robotics
-- 🧬 **Synthetic Life Research** – Test hypotheses about cognition and evolution
-- 🎮 **Game Narrative Systems** – Emergent characters that evolve based on experience
-- 🧘 **Therapeutic Simulations** – Exploring emotional regulation and balance
-- 🛰️ **Space-Based AI** – Autonomous systems with adaptive decision-making
+## ⚙️ Modules Overview
+- `observer_mode.py`: tracks agent behavior, logs key observations
+- `free_will.py`: introduces variability and non-deterministic choices
+- `harmony_engine.py`: evaluates and enforces community stability
+- `dashboard_gui.py`: optional GUI frontend
+- `community_traits.json`: seed traits for simulations
 
 ---
 
-## 📘 Documentation
-
-See [`docs/LifeOS_Whitepaper.pdf`](docs/LifeOS_Whitepaper.pdf) for full theory and architecture.
-
----
-
-## 👥 Contributing
-
-Contributions are welcome! Fork the repo, open issues, or submit pull requests.
+## 🧠 Philosophy
+LifeOS is a sandbox for understanding life through computation — simulating decisions, evolution, and consciousness-like behavior under universal constraints.
 
 ---
 
-## 📄 License
+## 🛠 Troubleshooting
+- **Nothing happens on launch:** Right-click BAT file > "Run as Administrator"
+- **Missing Python error:** Add Python to PATH during install
+- **Still stuck?** Use `python core/simulation_runner.py` via command line
 
-MIT License
+---
+
+## 🤝 Contributing
+This repo is maintained for academic and simulation research. Pull requests welcome.

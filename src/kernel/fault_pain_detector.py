@@ -1,27 +1,17 @@
 
-def detect_pain(entity, harmony_threshold=0.3, overload_threshold=0.9):
-    if not hasattr(entity, "traits") or not hasattr(entity, "harmony_score"):
-        return None
+class FaultPainDetector:
+    def __init__(self):
+        self.pain_keywords = ["failure", "loss", "rejection", "guilt", "fear"]
 
-    pain_signals = []
-    overloaded_traits = []
+    def detect(self, trait_data):
+        triggers = trait_data.get("triggers", [])
+        base_intensity = trait_data.get("base_intensity", 0)
+        pain_score = 0
 
-    for trait_name, trait_data in entity.traits.items():
-        if trait_data.get("intensity", 0) >= overload_threshold:
-            overloaded_traits.append(trait_name)
+        for trigger in triggers:
+            if trigger.lower() in self.pain_keywords:
+                pain_score += 1
 
-    if entity.harmony_score < harmony_threshold:
-        pain_signals.append("⚠️ Low Harmony")
-
-    if overloaded_traits:
-        pain_signals.append(f"🔥 Overloaded: {', '.join(overloaded_traits)}")
-
-    if pain_signals:
-        pain_event = {
-            "entity": entity.name,
-            "harmony_score": round(entity.harmony_score, 2),
-            "pain_signals": pain_signals
-        }
-        return pain_event
-
-    return None
+        # Normalize and apply intensity
+        normalized_pain = min(pain_score / len(self.pain_keywords), 1.0)
+        return round(normalized_pain * base_intensity, 3)

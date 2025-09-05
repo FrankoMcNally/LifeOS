@@ -1,10 +1,16 @@
+# src/kernel/instinct_matrix.py
 
-# instinct_matrix.py
+class InstinctMatrix:
+    def __init__(self):
+        pass
 
-DEFAULT_INSTINCTS = {
-    "seek_safety": 0.9,
-    "preserve_energy": 0.8,
-    "bond_with_ingroup": 0.7,
-    "avoid_unknown": 0.6,
-    "challenge_rivals": 0.4,
-}
+    def evaluate(self, trait):
+        """
+        Dummy instinct evaluation logic based on trait intensity and triggers.
+        """
+        intensity = trait.get("intensity", 1.0)
+        triggers = trait.get("triggers", [])
+        return {
+            "instinct_level": intensity * len(triggers),
+            "trigger_count": len(triggers),
+        }
