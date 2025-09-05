@@ -1,22 +1,13 @@
+import sys
+import os
 
-# run.py — Universal Simulation Launcher for LifeOS
+# 🔧 Add project root to path so we can import community_loader
+sys.path.append(os.path.dirname(__file__))
 
-from community_loader import load_traits_from_file
-from simulation_runner import SimulationRunner
+from simulation_runner import run_simulation
 
-TRAIT_FILE = "community_traits/sample_trait_set.json"
-SIMULATION_STEPS = 10
-
-def main():
-    print("🧠 Booting LifeOS simulation...")
-    traits = load_traits_from_file(TRAIT_FILE)
-    runner = SimulationRunner(traits)
-
-    for step in range(SIMULATION_STEPS):
-        print(f"🌱 Simulation step {step + 1}")
-        runner.run_step()
-
-    print("✅ Simulation completed.")
-
+# 🔁 Run simulation for 10 steps as a sample
 if __name__ == "__main__":
-    main()
+    for timestep in range(10):
+        print(f"\n🌀 Running timestep {timestep + 1}")
+        run_simulation()
