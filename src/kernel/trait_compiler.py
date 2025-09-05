@@ -1,31 +1,30 @@
-import json
 
-class Trait:
-    def __init__(self, name, base_intensity, triggers, modulation_factors):
-        self.name = name
-        self.base_intensity = base_intensity
-        self.triggers = triggers
-        self.modulation_factors = modulation_factors
+class TraitCompiler:
+    def __init__(self):
+        self.traits = {}
 
-    @classmethod
-    def from_json(cls, file_path):
-        with open(file_path, 'r') as f:
-            data = json.load(f)
-        return cls(
-            name=data.get("name"),
-            base_intensity=data.get("base_intensity", 1.0),
-            triggers=data.get("triggers", []),
-            modulation_factors=data.get("modulation_factors", {})
-        )
+    def compile(self, trait_data):
+        """
+        Compiles raw trait data into a usable format.
+        """
+        compiled = {}
+        for name, details in trait_data.items():
+            compiled[name] = {
+                "intensity": details.get("intensity", 1.0),
+                "category": details.get("category", "core"),
+                "description": details.get("description", "")
+            }
+        self.traits = compiled
+        return compiled
 
-    def compile(self, environment_stress=0.0):
-        """Compiles the trait into an executable state for the simulation."""
-        stress_factor = self.modulation_factors.get('stress', 1.0)
-        current_intensity = self.base_intensity * (1 + environment_stress * stress_factor)
+    def get_trait(self, name):
+        """
+        Returns a specific trait's compiled data.
+        """
+        return self.traits.get(name, None)
 
-        return {
-            "name": self.name,
-            "current_intensity": max(0.0, min(1.0, current_intensity)),
-            "triggers": self.triggers,
-            "prime_resonance_threshold": self.modulation_factors.get("prime_resonance_threshold", 0.5)
-        }
+    def list_traits(self):
+        """
+        Returns a list of all compiled traits.
+        """
+        return list(self.traits.keys())
