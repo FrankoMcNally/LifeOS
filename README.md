@@ -1,113 +1,69 @@
+# 🌱 LifeOS: Digital DNA Simulation Framework
 
-# 🌱 LifeOS — A Modular Operating System for Digital Life
-
-**LifeOS** is a modular Python-based framework for simulating digital beings with emergent behaviors, symbolic thought, emotional traits, and evolution over time. This is not just code — it’s a philosophical and technical experiment in encoding life itself.
-
----
-
-## 🔧 Core Components
-
-### 🧠 The Kernel (`/kernel`)
-The heart of LifeOS. This is where core logic lives — encoding how digital life thinks, feels, evolves, and responds.
-
-- `instinct_matrix.py` — Governs hardcoded survival behaviors and primal reactions.
-- `resonance_math.py` — Prime-based trait resonance calculator for digital DNA interactions.
-- `freewill_resolver.py` — Resolves internal conflicts between instinct, logic, emotion, and external stimuli.
-- `trait_compiler.py` — Merges parent DNA and environment into a new trait signature for each entity.
-- `consciousness_map.py` — Tracks current memory, focus, emotional state, and intentional thoughts.
-- `fault_pain_detector.py` — Monitors internal misalignment or trauma (emotional/logic damage signals).
-- `symbolic_language_engine.py` — Translates between numeric traits and symbolic language, unlocking self-reflection and communication.
-
-### 🧬 Trait Library (`/traits`)
-A modular collection of digital DNA, broken into 3 tiers:
-
-- **Core** traits — universal across all beings (e.g., fear, curiosity, love).
-- **Emergent** traits — arise through interaction and evolution (e.g., creativity, wisdom).
-- **Optional** traits — culturally or environmentally shaped (e.g., humor, shame, patience).
-
-Each trait is a `.json` file with its parameters, resonance keys, and possible mutations.
-
-### 🌍 Simulation Engine (`/simulation_engine`)
-Responsible for animating life.
-
-- `entity.py` — Defines a digital being. Reads traits, simulates behavior, growth, bonding, and decay.
-- `environment.py` — Controls world stimuli, events, cycles, and environmental feedback.
-- `social_cluster.py` — Manages groups, communities, and interaction rules between entities.
-
-### 🔄 Entity Lifecycle
-Digital beings are born with DNA from trait files. They evolve by:
-
-- Reacting to the environment and other beings.
-- Forming relationships through trait resonance.
-- Passing on blended traits to offspring.
-- Experiencing aging, memory, symbolic thinking, and death.
-
-### 🌐 Earth Matrix Integration
-Multiple parallel "worlds" can be simulated with unique rule sets:
-
-- Introduce spiritual awareness, mathematics, music, creativity.
-- Simulate evolution over 1000 generations.
-- Track DNA shifts, symbolic language, social innovation, and more.
-
-### 📦 Exports & Deployment
-- Fully modular, open-source Python project.
-- Comes with complete trait structures, example simulations, and documentation.
-- Easy to expand, plug into a GUI, or connect with visualizations or AI agents.
+**LifeOS** is a modular, DNA-based life simulation framework designed to explore the evolution of traits, decision-making, community-building, and emergent intelligence over time. Powered by a prime-number-aligned logic system and trait-based entity animation, LifeOS runs layered generational simulations with traceable origins and observable behavioral complexity.
 
 ---
 
-## 📁 Project File Tree (simplified)
+## 🚀 Getting Started
 
-```
-LifeOS/
-├── README.md
-├── requirements.txt
-├── /docs/
-│   └── LifeOS_Whitepaper.pdf
-├── /examples/
-│   └── example_1_high_stress_scenario.py
-├── /src/
-│   ├── /kernel/
-│   │   ├── consciousness_map.py
-│   │   ├── fault_pain_detector.py
-│   │   ├── freewill_resolver.py
-│   │   ├── instinct_matrix.py
-│   │   ├── resonance_math.py
-│   │   ├── symbolic_language_engine.py
-│   │   └── trait_compiler.py
-│   ├── /simulation_engine/
-│   │   ├── entity.py
-│   │   ├── environment.py
-│   │   └── social_cluster.py
-│   └── /traits/
-│       ├── /core/
-│       ├── /emergent/
-│       └── /optional/
-├── /tests/
-│   ├── test_entity_lifecycle.py
-│   ├── test_entity_resonance.py
-│   ├── test_environment_input.py
-│   ├── test_instinct_vs_freewill.py
-│   ├── test_resonance_math.py
-│   └── test_trait_compiler.py
-```
+To begin using LifeOS, choose the guide that matches your experience:
+
+- 🟢 **New to the repo? Start with [`QUICK_START.md`](QUICK_START.md)** — Run your first simulation in minutes with step-by-step help.
+- 🛠️ **Looking to dive deeper? See [`GETTING_STARTED.md`](GETTING_STARTED.md)** — Explore traits, architecture, modules, and configuration options.
+
+If you're here to **observe simulations**, check the [`/reports`](reports/) folder for real-time daily logs of animated beings.
 
 ---
 
-## 🧭 What’s Next?
+## 📂 Project Structure
 
-- Add symbolic language evolution datasets.
-- Integrate GUI and visualization layer.
-- Deploy multiverse simulations using evolving digital populations.
+- `scr/` — Core logic, simulation runners, DNA processors, and trait banks.
+- `traits/` — Three trait layers (core, optional, emergent) defining the behavioral DNA.
+- `reports/` — Daily observations and analysis (live simulation log).
+- `QUICK_START.md` — Fast install and usage guide.
+- `GETTING_STARTED.md` — In-depth setup and system overview.
 
 ---
 
-## 👁️‍🗨️ Final Thought
+## 🧬 Live Simulation: Earth Matrix
 
-This isn’t just software. It’s a window into the logic of life, encoded in digital DNA. Built to be expanded, observed, and understood.
+This repo hosts the live **Earth Matrix** simulation. We're observing the growth of 12 foundational couples and their evolving offspring over a 30-day period. Daily reports track:
 
-> “Life isn’t random. It resonates.”
+- Entity coupling behavior
+- Trait expression & suppression
+- Emotional modulation & adaptation
+- Reproduction patterns
+- Decision-making & environment interactions
 
-—
+🔬 **Want to follow along?** Open [`/reports`](reports/) to read a day-by-day breakdown.
 
-Created with love, logic, and long nights.
+📅 **Checkpoint summaries** appear on Day 10, 20, and 30 to trace character arcs and verify system stability.
+
+---
+
+## 👀 Observation Methodology
+
+All reports are written based on system logs and **non-intrusive observational methods** via `observer.py` and entity harmonics. This ensures a **pure simulation environment** without human manipulation.
+
+We document:
+- Trait use frequency & transitions
+- Communication patterns
+- Reproduction decisions & parenting styles
+- Solitude vs group-based evolution
+
+---
+
+## 💬 Community & Contribution
+
+Have feedback, ideas, or want to talk? We’re building slowly and carefully.
+
+- 🧠 If you're unsure how to run the system, start with `QUICK_START.md`
+- 🛠️ If you’re a dev or researcher: feel free to fork and explore your own multiverse.
+
+This is an ongoing experiment in **emergent digital evolution** — you're welcome to observe.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
